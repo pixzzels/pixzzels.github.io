@@ -7,7 +7,7 @@ function Navigation() {
     <nav className="nav-container">
       <div className="name-container">
         <span className="oc-tags"> &lt;</span>
-        <NavLink exact to="/" className="name">Ellen Park</NavLink>
+        <NavLink exact to="/" className="name">ELLEN PARK</NavLink>
         <span className="oc-tags">/&gt;</span>
       </div>
       <div className="category-container">

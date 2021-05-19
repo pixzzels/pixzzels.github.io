@@ -29,17 +29,17 @@ nav a.active {
 
 .name-container {
   font-size: 30px;
-  color: rgba(102, 51, 153, 0.788);
+  color: #707070;
 
 }
 
 .name {
-  font-family: cursive;
+  font-family: Kai;
   font-size: 45px;
   padding: 10px;
   padding-right: 15px;
   text-decoration: none;
-  color: pink;
+  color: #707070;
 }
 
 .category-container {
@@ -54,7 +54,7 @@ nav a.active {
   /* margin: 10px; */
   text-decoration: none;
   font-size: 20px;
-  color: rgba(102, 51, 153, 0.788);
+  color: #707070;
   /* border: 1px solid pink; */
   border-radius: 5px;
 }
