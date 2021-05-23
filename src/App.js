@@ -4,10 +4,12 @@ import Home from "./components/Home"
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import SplashPage from "./components/SplashPage";
 
 const App = () => {
   return (
     <>
+      <SplashPage />
       <Navigation />
       <Switch>
         <Route path="/skills">

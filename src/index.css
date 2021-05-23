@@ -1,3 +1,8 @@
 html {
   font-family: sans-serif;
 }
+
+body, ul, div, nav {
+  padding: 0px;
+  margin: 0px;
+}
