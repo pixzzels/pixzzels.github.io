@@ -6,9 +6,9 @@ function Navigation() {
   return (
     <nav className="nav-container">
       <div className="name-container">
-        <span className="oc-tags"> &lt;</span>
-        <NavLink exact to="/" className="name">ELLEN PARK</NavLink>
-        <span className="oc-tags">/&gt;</span>
+        <span className="oc-tags-nav"> &lt;</span>
+        <NavLink exact to="/" className="name">ELLEN</NavLink>
+        <span className="oc-tags-nav">&gt;</span>
       </div>
       <div className="category-container">
         <NavLink className="category-link" to="/skills">Skills</NavLink>

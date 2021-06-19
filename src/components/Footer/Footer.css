@@ -1,0 +1,16 @@
+.name-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.name-container-footer {
+    font-size: 30px;
+    color: #707070;
+    position: relative;
+}
+
+.oc-tags-footer {
+    position: absolute;
+    bottom: 7px;
+}

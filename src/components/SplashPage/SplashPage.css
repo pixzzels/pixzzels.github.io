@@ -1,6 +1,6 @@
 .splash-page-container {
     height: 100vh;
-    background-color: pink;
+    /* background-color: pink; */
     position: relative;
 }
 
@@ -20,4 +20,18 @@
     position: absolute;
     top: 400px;
     left: 800px;
+}
+
+.fa-chevron-down {
+    color: red;
+    font-weight: 200;
+    /* background-color: hotpink; */
+    border: 1px solid blue;
+    position: absolute;
+    top: 400px;
+    left: 800px;
+    height: 40px;
+    width: 40px;
+
+    font-size: 40px;
 }
