@@ -1,7 +1,14 @@
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+
 .name-footer {
     display: flex;
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 60px;
+    padding-bottom: 40px;
 }
 
 .name-container-footer {
@@ -9,6 +16,21 @@
     color: #707070;
     position: relative;
 }
+
+.oc-tags-footer-t {
+    position: absolute;
+    bottom: 7px;
+    left: -15px;
+}
+
+.oc-tags-footer-slash {
+    position: absolute;
+    bottom: -5px;
+    left: 6px;
+    font-size: 50px;
+    font-weight: 200;
+}
+
 
 .oc-tags-footer {
     position: absolute;

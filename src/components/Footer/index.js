@@ -5,12 +5,14 @@ import './Footer.css';
 function Footer() {
     return (
         <>
-            <footer className="name-footer">
+            <footer className="name-footer sticky">
 
                 <div className="name-container-footer">
-                    <span className="oc-tags-footer"> &lt;</span>
+                    <span className="oc-tags-footer-t"> &lt;</span>
+                    <span className="oc-tags-footer-slash"> /</span>
+
                     <NavLink exact to="/" className="name">PARK</NavLink>
-                    <span className="oc-tags-footer">/&gt;</span>
+                    <span className="oc-tags-footer">&gt;</span>
                 </div>
             </footer>
         </>
