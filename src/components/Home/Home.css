@@ -8,6 +8,36 @@
     z-index: -1;
 }
 
+.sticky-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    width:fit-content;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+.name {
+    font-family: Kai;
+    font-size: 45px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #707070;
+    text-shadow: .5px .5px #e782ebbe, -.5px -.5px #eeec7ebe, 1px 1px 2px #ffffffbe;
+
+    /* text-shadow: -2px -2px #ffffffbe; */
+
+  }
+  
+  .oc-tags-nav {
+    position: absolute;
+    top: 3px;
+    text-shadow: .3px .3px #e782ebbe, -.3px -.3px #eeec7ebe, 1px 1px 2px #ffffffbe;
+    
+  }
+
 /* .pix-container {
     position: absolute;
     left: 100px;

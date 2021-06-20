@@ -20,6 +20,7 @@ nav a.active {
   background-color: black;
 } */
 
+
 .nav-container {
   display: flex;
   align-items: center;
@@ -33,23 +34,6 @@ nav a.active {
 .name-container {
   font-size: 30px;
   color: #707070;
-
-}
-
-.name {
-  font-family: Kai;
-  font-size: 45px;
-  padding: 10px;
-  padding-right: 15px;
-  padding-left: 30px;
-  text-decoration: none;
-  color: #707070;
-}
-
-.oc-tags-nav {
-  position: absolute;
-  top: 35px;
-  
 }
 
 .category-container {
@@ -57,7 +41,6 @@ nav a.active {
   justify-content: center;
   align-items: center;
   margin-left: 35px;
-
 }
 
 .category-link {

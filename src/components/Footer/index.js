@@ -5,7 +5,7 @@ import './Footer.css';
 function Footer() {
     return (
         <>
-            <footer className="name-footer sticky">
+            <footer className="name-footer sticky-footer">
 
                 <div className="name-container-footer">
                     <span className="oc-tags-footer-t"> &lt;</span>
