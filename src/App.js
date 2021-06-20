@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
       {/* <SplashPage /> */}
-      <Navigation />
+      {/* <Navigation /> */}
       <Switch>
         {/* <Route path="/about">
           <About />
