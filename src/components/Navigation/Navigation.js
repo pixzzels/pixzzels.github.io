@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 import './Navigation.css';
 
@@ -11,9 +11,9 @@ function Navigation() {
         <span className="oc-tags-nav">&gt;</span>
       </div>
       <div className="category-container">
-        <NavLink className="category-link" to="/skills">Skills</NavLink>
-        <NavLink className="category-link" to="/projects">Projects</NavLink>
-        <NavLink className="category-link" to="/contact">Contact Me</NavLink>
+        <Link className="category-link" to="about-wrapper">About</Link>
+        <NavLink className="category-link" to="/projects">Portfolio</NavLink>
+        <NavLink className="category-link" to="/contact">Contact</NavLink>
 
       </div>
     </nav>

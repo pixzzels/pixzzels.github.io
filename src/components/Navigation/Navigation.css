@@ -23,7 +23,7 @@ nav a.active {
 .nav-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-evenly; */
   padding: 20px;
   height: 70px;
   position: relative;
@@ -56,7 +56,8 @@ nav a.active {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 15px;
+  margin-left: 35px;
+
 }
 
 .category-link {

@@ -1,7 +1,11 @@
 
 
 .home-wrapper {
-    height: 1000px;
+    /* height: 1000px; */
+}
+
+.background {
+    z-index: -1;
 }
 
 /* .pix-container {

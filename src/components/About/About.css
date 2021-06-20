@@ -1,0 +1,45 @@
+
+#about-wrapper {
+    margin: 20px 100px 50px 100px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    margin-right: 35px;
+}
+
+.about-description {
+    /* color: #E4E6EB; */
+    color: #B0B3B8;
+
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.tech-container {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.tech-header {
+    color: #B0B3B8;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tech__icon {
+    margin:25px;
+    font-size: 80px;
+}
