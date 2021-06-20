@@ -1,7 +1,8 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import About from '../../components/About'
-import Navigation from "../../components/Navigation";
+import About from '../../components/About';
+import Portfolio from '../../components/Portfolio';
+
 
 import './Home.css';
 
@@ -12,7 +13,7 @@ function Home() {
             <nav className="nav-container">
 
                 <div className="category-container">
-                    <Link className="category-link" to="about-wrapper">About</Link>
+                    <Link className="category-link" to="about">About</Link>
                     <NavLink className="category-link" to="/projects">Portfolio</NavLink>
                     <NavLink className="category-link" to="/contact">Contact</NavLink>
 
@@ -32,6 +33,7 @@ function Home() {
                     <div id="pix-1"></div>
                 </div>
                 <About />
+                <Portfolio />
             </div>
         </>
     )

@@ -1,0 +1,95 @@
+#portfolio {
+    margin: 20px 100px 50px 100px;
+    background-color: transparent;
+}
+
+.projects-menu-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-bar {
+    color: #B0B3B8;
+    font-size: 32px;
+    padding: 20px;
+    background-color: transparent;
+    margin-bottom: 30px;
+
+}.menu-bar:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 10px rgba(219, 219, 219, 0.671);
+}
+
+.menu-bar:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    margin-top: 8px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .2s ease;
+}.menu-bar:hover:after {
+    width: 100%;
+    background: #cfcfcf;
+}
+
+.menu-bar-active {
+    text-shadow: 1px 1px 10px #dbdbdbab;
+}.menu-bar-active:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    margin-top: 8px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .2s ease;
+    width: 100%;
+    background: #cfcfcf;
+}
+
+.projects-container {
+    display: flex;
+    min-height: 400px;
+    /* height: fit-content; */
+    width: 80%;
+    margin: auto;
+    /* box-shadow: 0px 0px 100px 70px rgb(94, 94, 94); */
+    background: transparent;
+    flex-wrap: wrap;
+
+}
+
+.project-card {
+    background: transparent;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+.project-card-img {
+    height: 300px;
+    /* width: 300px; */
+}
+
+.programmerr {
+    background: yellow;
+
+}
+
+.luminno {
+    background: blue;
+}
+
+
+.chaos-robinhood {
+    background: green;
+
+}
+
+.ggPlays {
+    background: red;
+    
+}
