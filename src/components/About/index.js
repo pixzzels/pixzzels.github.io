@@ -8,11 +8,16 @@ function About() {
                 <div className="about-container">
                     <img className="profile-img" src="https://i.ibb.co/HKRC9m4/IMG-0664.jpg"></img>
                     <div className="about-right">
+                        <h1>Hey There! Ellen Park here...</h1>
                         <div className="about-description">
                             I am a highly creative and motivated full-stack software developer. I have passion for learning and trying new things, and with programming, there's never an end to what I can learn whether they are new technologies and languages, or earning mastery of my current skills such as Javascript, React, Redux, Python, and Flask. I love entertaining hobbies that allow me to expand on my creativity like writing and graphic design.
                         </div>
                         <div className="about-find-me">
-                            <i className="far fa-envelope" style={{ color: "white" }}></i>
+                            <a href="https://github.com/pixzzels">
+                                <i className="contact-icon fab fa-github"></i>
+                            </a>
+                            <i className="contact-icon fab fa-linkedin"></i>
+                            <i className="contact-icon far fa-envelope"></i>
                         </div>
                     </div>
                 </div>

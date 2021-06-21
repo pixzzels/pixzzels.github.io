@@ -7,6 +7,12 @@
     display: flex;
     /* align-items: center; */
     margin-bottom: 70px;
+    
+}
+
+.about-right > h1 {
+    margin-top: 0px;
+    color: #B0B3B8;
 }
 
 .profile-img {
@@ -22,6 +28,12 @@
 
     font-size: 20px;
     line-height: 32px;
+}
+
+.contact-icon {
+    color: #B0B3B8;
+    margin: 10px;
+    font-size: 40px;
 }
 
 .tech-container {
