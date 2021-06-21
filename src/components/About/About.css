@@ -1,11 +1,12 @@
 
 #about-wrapper {
-    margin: 20px 100px 50px 100px;
+    margin: 50px 100px 70px 100px;
 }
 
 .about-container {
     display: flex;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .profile-img {

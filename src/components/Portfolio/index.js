@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-
+import { Modal } from '../../context/Modal';
+import Programmerr from '../Projects/Programmerr';
 import ggPlays from './ggPlays.png'
 
 import './Portfolio.css';
@@ -8,7 +9,15 @@ function Portfolio() {
 
     const [content, setContent] = useState('')
 
+    const [open, setOpen] = useState(false);
+
+    // let component;
+    // // if (isRegister) {
+    // component = <Programmerr />
+
     return (
+
+
         <>
             <div id="portfolio">
                 <div className="projects-menu-bar">
@@ -22,7 +31,13 @@ function Portfolio() {
                     <div className="project-card luminno">Luminno</div>
                     <div className="project-card chaos-robinhood">Chaos-Robinhood</div>
                     <div className="project-card ggPlays">
-                        <img className="project-card-img" src={ggPlays}></img>
+                        {/* <img className="project-card-img" src={ggPlays}></img> */}
+                        <button onClick={() => setOpen(true)}>button</button>
+                        {open && (
+                            <Modal className="login-register-modal" onClose={() => setOpen(false)}>
+                                <Programmerr />
+                            </Modal>
+                        )}
                     </div>
 
                 </div>

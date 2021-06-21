@@ -30,7 +30,7 @@ function Home() {
             <div className="home-wrapper">
 
                 <div className="background">
-                    <div id="pix-1"></div>
+                    {/* <div id="pix-1"></div> */}
                 </div>
                 <About />
                 <Portfolio />
