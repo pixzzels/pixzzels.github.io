@@ -66,16 +66,34 @@
     flex-wrap: wrap;
 }
 
+/*--------Project Card---------------------------------------------------------------------------------*/
+
 .project-card {
     background: transparent;
     height: 300px;
     width: 300px;
     margin: 20px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+    transition: transform .5s;
+}.project-card:hover {
+    transform: translate(3px, -3px)
+}
+
+.project-card-shadow {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 3px;
+    background: yellow;
 }
 
 .project-card-img {
     height: 300px;
-    /* width: 300px; */
+    width: 300px;
 }
 
 .programmerr {
@@ -94,6 +112,81 @@
     background: red;
 }
 
+.project-card-overlay {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    height: 300px;
+    width: 300px;
+    transition: background-color .5s, backdrop-filter .3s;
+    background-color: transparent;
+    /* box-shadow: 0px 0px 45px 10px rgba(255, 255, 255, 0.993); */
+}
+
+.project-card:hover .project-card-overlay {
+    background-color: #1a19199a;
+    backdrop-filter: blur(3.5px);
+    /* display: block; */
+}
+
+.project-card-overlay__header {
+    position: absolute;
+    top: -60px;
+    height: 30px;
+    width: 280px;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    /* transition: top 1s; */
+    /* transform: translateY(50px); */
+    transition: transform .5s;
+    text-align: center;
+    text-shadow: .5px .5px #e782ebbe, -.5px -.5px #eeec7ebe, 0px 2px 5px #b9b9b9be;
+}
+
+.project-card-overlay:hover .project-card-overlay__header {
+    transform: translate(0px, 100px);
+}
+
+.project-card-overlay__learn-more {
+    position: absolute;
+    top: 110px;
+    right: -300px;
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    transition: transform .5s;
+}
+
+.project-card-overlay:hover .project-card-overlay__learn-more {
+    transform: translate(-300px, 0px);
+}
+
+.project-card-overlay__live-link {
+    position: absolute;
+    bottom: -60px;
+    height: 20px;
+    width: 280px;
+    border: 0px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    transition: transform .5s;
+    text-align: center;
+}.project-card-overlay__live-link:hover {
+    cursor: pointer;
+}
+
+.project-card-overlay:hover .project-card-overlay__live-link {
+    transform: translate(0px, -160px);
+}
+
 /*-------------Card Modal ---------------------------------------------------------------*/
 
 .project-container {
@@ -109,7 +202,6 @@
     }
 }
 
-.project-container > h1 {
-
+.project-container>h1 {
     color: #1a1919e6;
 }
