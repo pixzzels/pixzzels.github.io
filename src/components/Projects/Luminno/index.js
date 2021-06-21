@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Luminno.css';
 
-function Programmerr() {
+function Luminno() {
     return (
         <>
             <div className="project-container">
@@ -12,4 +12,4 @@ function Programmerr() {
     )
 };
 
-export default Programmerr;
+export default Luminno;

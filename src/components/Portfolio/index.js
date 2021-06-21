@@ -27,17 +27,19 @@ function Portfolio() {
                     <div className="menu-bar menu-bar__other" onClick={() => setContent('all')}>All</div>
                 </div>
                 <div className="projects-container">
-                    <div className="project-card programmerr">Programmerr</div>
-                    <div className="project-card luminno">Luminno</div>
-                    <div className="project-card chaos-robinhood">Chaos-Robinhood</div>
-                    <div className="project-card ggPlays">
-                        {/* <img className="project-card-img" src={ggPlays}></img> */}
-                        <button onClick={() => setOpen(true)}>button</button>
+                    <div className="project-card programmerr">
+                        <button onClick={() => setOpen(true)}>Programmerr</button>
                         {open && (
                             <Modal className="login-register-modal" onClose={() => setOpen(false)}>
                                 <Programmerr />
                             </Modal>
                         )}
+                    </div>
+                    <div className="project-card luminno">Luminno</div>
+                    <div className="project-card chaos-robinhood">Chaos-Robinhood</div>
+                    <div className="project-card ggPlays">
+                        {/* <img className="project-card-img" src={ggPlays}></img> */}
+
                     </div>
 
                 </div>

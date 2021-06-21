@@ -5,13 +5,13 @@
 
 .about-container {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-bottom: 70px;
 }
 
 .profile-img {
-    height: 230px;
-    width: 230px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     margin-right: 35px;
 }
@@ -20,7 +20,7 @@
     /* color: #E4E6EB; */
     color: #B0B3B8;
 
-    font-size: 22px;
+    font-size: 20px;
     line-height: 32px;
 }
 

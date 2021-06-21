@@ -15,8 +15,9 @@
     padding: 20px;
     background-color: transparent;
     margin-bottom: 30px;
+}
 
-}.menu-bar:hover {
+.menu-bar:hover {
     cursor: pointer;
     text-shadow: 1px 1px 10px rgba(219, 219, 219, 0.671);
 }
@@ -30,14 +31,18 @@
     width: 0px;
     background: transparent;
     transition: width .5s ease, background-color .2s ease;
-}.menu-bar:hover:after {
+}
+
+.menu-bar:hover:after {
     width: 100%;
     background: #cfcfcf;
 }
 
 .menu-bar-active {
     text-shadow: 1px 1px 10px #dbdbdbab;
-}.menu-bar-active:after {
+}
+
+.menu-bar-active:after {
     content: '';
     display: block;
     margin: auto;
@@ -59,7 +64,6 @@
     /* box-shadow: 0px 0px 100px 70px rgb(94, 94, 94); */
     background: transparent;
     flex-wrap: wrap;
-
 }
 
 .project-card {
@@ -76,20 +80,36 @@
 
 .programmerr {
     background: yellow;
-
 }
 
 .luminno {
     background: blue;
 }
 
-
 .chaos-robinhood {
     background: green;
-
 }
 
 .ggPlays {
     background: red;
-    
+}
+
+/*-------------Card Modal ---------------------------------------------------------------*/
+
+.project-container {
+    animation: fadebackground .5s;
+}
+
+@keyframes fadebackground {
+    from {
+        background-color: #1a1919e6;
+    }
+    to {
+        background-color: grey;
+    }
+}
+
+.project-container > h1 {
+
+    color: #1a1919e6;
 }

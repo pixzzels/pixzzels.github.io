@@ -1,5 +1,7 @@
 import { Switch, Route } from "react-router-dom";
 import Footer from "./components/Footer";
+import MainFooter from "./components/MainFooter";
+
 import Home from "./components/Home"
 
 // import About from "./components/About";
@@ -26,6 +28,7 @@ const App = () => {
         </Route>
       </Switch>
       <Footer />
+      <MainFooter />
     </>
   );
 }

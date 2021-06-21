@@ -6,7 +6,7 @@ function Programmerr() {
     return (
         <>
             <div className="project-container">
-                About Programmerr.
+                <h1>Programmerr</h1>
             </div>
         </>
     )
