@@ -77,7 +77,9 @@
     position: relative;
     border-radius: 3px;
     transition: transform .5s;
-}.project-card:hover {
+}
+
+.project-card:hover {
     transform: translate(3px, -3px)
 }
 
@@ -179,7 +181,9 @@
     background-color: transparent;
     transition: transform .5s;
     text-align: center;
-}.project-card-overlay__live-link:hover {
+}
+
+.project-card-overlay__live-link:hover {
     cursor: pointer;
 }
 
@@ -189,19 +193,50 @@
 
 /*-------------Card Modal ---------------------------------------------------------------*/
 
-.project-container {
-    animation: fadebackground .5s;
+.project-header-container {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+
 }
 
-@keyframes fadebackground {
-    from {
-        background-color: #1a1919e6;
-    }
-    to {
-        background-color: grey;
-    }
+.project-header {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+
 }
 
-.project-container>h1 {
+.project-favicon {
+    height: 80px;
+    width: 80px;
+}
+
+.project-header>h1 {
     color: #1a1919e6;
+    font-size: 36px;
+    margin-left: 30px;
+}
+
+.project-description {
+    /* color: #E4E6EB; */
+    color: #B0B3B8;
+    font-size: 18px;
+    line-height: 24px;
+
+    height: 30px;
+    border-bottom: 1px solid #E4E6EB;
+    background-color: transparent;
+    margin-top: 30px;
+
+}
+
+.project-technologies {
+    background-color: transparent;
+}
+
+.project-technology {
+    color: #E4E6EB;
+    background-color: transparent;
+
 }

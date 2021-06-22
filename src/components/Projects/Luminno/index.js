@@ -6,7 +6,7 @@ function Luminno() {
     return (
         <>
             <div className="project-container">
-                About Programmerr.
+                About Luminno.
             </div>
         </>
     )
