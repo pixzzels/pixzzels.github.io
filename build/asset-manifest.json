@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pixzzels.github.io/static/css/main.be67d9d4.chunk.css",
+    "main.js": "/pixzzels.github.io/static/js/main.8a6fc22a.chunk.js",
+    "main.js.map": "/pixzzels.github.io/static/js/main.8a6fc22a.chunk.js.map",
+    "runtime-main.js": "/pixzzels.github.io/static/js/runtime-main.525297fe.js",
+    "runtime-main.js.map": "/pixzzels.github.io/static/js/runtime-main.525297fe.js.map",
+    "static/js/2.ebdcaa17.chunk.js": "/pixzzels.github.io/static/js/2.ebdcaa17.chunk.js",
+    "static/js/2.ebdcaa17.chunk.js.map": "/pixzzels.github.io/static/js/2.ebdcaa17.chunk.js.map",
+    "index.html": "/pixzzels.github.io/index.html",
+    "static/css/main.be67d9d4.chunk.css.map": "/pixzzels.github.io/static/css/main.be67d9d4.chunk.css.map",
+    "static/js/2.ebdcaa17.chunk.js.LICENSE.txt": "/pixzzels.github.io/static/js/2.ebdcaa17.chunk.js.LICENSE.txt",
+    "static/media/chaos-robinhood-icon.04b8e3d2.png": "/pixzzels.github.io/static/media/chaos-robinhood-icon.04b8e3d2.png",
+    "static/media/ggplays-icon.fd273214.png": "/pixzzels.github.io/static/media/ggplays-icon.fd273214.png",
+    "static/media/luminno-icon.38f5e138.png": "/pixzzels.github.io/static/media/luminno-icon.38f5e138.png",
+    "static/media/programmerr-icon.c6dae07a.png": "/pixzzels.github.io/static/media/programmerr-icon.c6dae07a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.525297fe.js",
+    "static/js/2.ebdcaa17.chunk.js",
+    "static/css/main.be67d9d4.chunk.css",
+    "static/js/main.8a6fc22a.chunk.js"
+  ]
+}
