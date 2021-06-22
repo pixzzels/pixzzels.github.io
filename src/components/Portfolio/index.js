@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
 import { Modal } from '../../context/Modal';
 import Programmerr from '../Projects/Programmerr';
+import ChaosRobinhood from '../Projects/ChaosRobinhood';
+import Luminno from '../Projects/Luminno';
+import GGPlays from '../Projects/GGPlays';
+
 import programmerrIcon from '../Projects/Programmerr/programmerr-icon.png';
 import luminnoIcon from '../Projects/Luminno/luminno-icon.png';
-
+import chaosRobinhoodIcon from '../Projects/ChaosRobinhood/chaos-robinhood-icon.png';
+import ggPlaysIcon from '../Projects/GGPlays/ggplays-icon.png';
 
 import './Portfolio.css';
+
 
 function Portfolio() {
 
@@ -55,7 +61,7 @@ function Portfolio() {
 
 
                     <div className="project-card programmerr">
-                        
+
                         {cardOverlay("Programmer", "https://programmerr.herokuapp.com/")}
 
                         <img className="project-card-img" src={programmerrIcon}></img>
@@ -67,19 +73,37 @@ function Portfolio() {
                         )}
                     </div>
                     <div className="project-card luminno">
-                        {cardOverlay("Luminno", "https://programmerr.herokuapp.com/")}
+                        {cardOverlay("Luminno", "https://luminno.herokuapp.com/")}
 
                         <img className="project-card-img" src={luminnoIcon}></img>
 
                         {open && (
                             <Modal className="login-register-modal" onClose={() => setOpen(false)}>
-                                <Programmerr />
+                                <Luminno />
                             </Modal>
                         )}
                     </div>
-                    <div className="project-card chaos-robinhood">Chaos-Robinhood</div>
+                    <div className="project-card chaos-robinhood">
+                        {cardOverlay("Chaos Robinhood", "https://chaos-robinhood.herokuapp.com/")}
+
+                        <img className="project-card-img" src={chaosRobinhoodIcon}></img>
+
+                        {open && (
+                            <Modal className="login-register-modal" onClose={() => setOpen(false)}>
+                                <ChaosRobinhood />
+                            </Modal>
+                        )}
+                    </div>
                     <div className="project-card ggPlays">
-                        {/* <img className="project-card-img" src={ggPlays}></img> */}
+                        {cardOverlay("GGPlays", "https://ggplays.herokuapp.com/")}
+
+                        <img className="project-card-img" src={ggPlaysIcon}></img>
+
+                        {open && (
+                            <Modal className="login-register-modal" onClose={() => setOpen(false)}>
+                                <GGPlays />
+                            </Modal>
+                        )}
 
                     </div>
 
