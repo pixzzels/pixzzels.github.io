@@ -20,12 +20,24 @@
 
 #modal-content {
   position: absolute;
-  /* background-color:grey; */
+  /* background-color:#E4E6EB; */
+  background-color:#5a5a63b6;
   border-radius: 10px;
   height: 600px;
   width: 150vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 40px;
+  animation: fadebackground .5s;
+
+}
+
+@keyframes fadebackground {
+  from {
+      background-color: #1a1919e6;
+  }
+  to {
+      background-color: #5a5a63b6;
+  }
 }
 
 #modal {

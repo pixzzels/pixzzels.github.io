@@ -16,6 +16,7 @@ import './Portfolio.css';
 function Portfolio() {
 
     const [content, setContent] = useState('')
+    const [project, setProject] = useState('')
 
     const [open, setOpen] = useState(false);
 
@@ -29,7 +30,7 @@ function Portfolio() {
                 <div className="project-card-overlay__header">
                     {name}
                 </div>
-                <button className="project-card-overlay__learn-more" onClick={() => setOpen(true)}>Click Here to Learn More!!</button>
+                <button className="project-card-overlay__learn-more" onClick={() => setProject(name)}>Click Here to Learn More!!</button>
                 <a className="project-card-overlay__live-link" href={link}>
                     Live Link
                 </a>
@@ -37,11 +38,6 @@ function Portfolio() {
             </div>
         )
     }
-
-    // let component =
-    //     <div className="project-card-overlay">
-
-    //     </div>
 
     return (
 
@@ -62,12 +58,12 @@ function Portfolio() {
 
                     <div className="project-card programmerr">
 
-                        {cardOverlay("Programmer", "https://programmerr.herokuapp.com/")}
+                        {cardOverlay("Programmerr", "https://programmerr.herokuapp.com/")}
 
                         <img className="project-card-img" src={programmerrIcon}></img>
 
-                        {open && (
-                            <Modal className="login-register-modal" onClose={() => setOpen(false)}>
+                        {project === "Programmerr" && (
+                            <Modal className="project-modal" onClose={() => setProject(false)}>
                                 <Programmerr />
                             </Modal>
                         )}
@@ -77,8 +73,8 @@ function Portfolio() {
 
                         <img className="project-card-img" src={luminnoIcon}></img>
 
-                        {open && (
-                            <Modal className="login-register-modal" onClose={() => setOpen(false)}>
+                        {project === 'Luminno' && (
+                            <Modal className="project-modal-modal" onClose={() => setProject(false)}>
                                 <Luminno />
                             </Modal>
                         )}
@@ -88,8 +84,8 @@ function Portfolio() {
 
                         <img className="project-card-img" src={chaosRobinhoodIcon}></img>
 
-                        {open && (
-                            <Modal className="login-register-modal" onClose={() => setOpen(false)}>
+                        {project === 'Chaos Robinhood' && (
+                            <Modal className="project-modal-modal" onClose={() => setProject(false)}>
                                 <ChaosRobinhood />
                             </Modal>
                         )}
@@ -99,8 +95,8 @@ function Portfolio() {
 
                         <img className="project-card-img" src={ggPlaysIcon}></img>
 
-                        {open && (
-                            <Modal className="login-register-modal" onClose={() => setOpen(false)}>
+                        {project === 'GGPlays' && (
+                            <Modal className="project-modal" onClose={() => setProject(false)}>
                                 <GGPlays />
                             </Modal>
                         )}
