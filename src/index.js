@@ -1,20 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
+import { ModalProvider } from "./context/Modal";
+
 import './index.css';
 import App from './App';
-import ThemeProvider from './context/ThemeContext';
-import ClimateProvider from './context/ClimateContext'
 
 function Root() {
   return (
-    <ThemeProvider>
-      <ClimateProvider>
-        <BrowserRouter>
-          <App />
-        </BrowserRouter>
-      </ClimateProvider>
-    </ThemeProvider>
+    <ModalProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </ModalProvider>
   );
 }
 

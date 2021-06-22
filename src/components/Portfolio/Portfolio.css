@@ -1,0 +1,207 @@
+#portfolio {
+    margin: 20px 100px 50px 100px;
+    background-color: transparent;
+}
+
+.projects-menu-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-bar {
+    color: #B0B3B8;
+    font-size: 32px;
+    padding: 20px;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+.menu-bar:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 10px rgba(219, 219, 219, 0.671);
+}
+
+.menu-bar:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    margin-top: 8px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .2s ease;
+}
+
+.menu-bar:hover:after {
+    width: 100%;
+    background: #cfcfcf;
+}
+
+.menu-bar-active {
+    text-shadow: 1px 1px 10px #dbdbdbab;
+}
+
+.menu-bar-active:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    margin-top: 8px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .2s ease;
+    width: 100%;
+    background: #cfcfcf;
+}
+
+.projects-container {
+    display: flex;
+    min-height: 400px;
+    /* height: fit-content; */
+    width: 80%;
+    margin: auto;
+    /* box-shadow: 0px 0px 100px 70px rgb(94, 94, 94); */
+    background: transparent;
+    flex-wrap: wrap;
+}
+
+/*--------Project Card---------------------------------------------------------------------------------*/
+
+.project-card {
+    background: transparent;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+    transition: transform .5s;
+}.project-card:hover {
+    transform: translate(3px, -3px)
+}
+
+.project-card-shadow {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 3px;
+    background: yellow;
+}
+
+.project-card-img {
+    height: 300px;
+    width: 300px;
+}
+
+.programmerr {
+    background: yellow;
+}
+
+.luminno {
+    background: blue;
+}
+
+.chaos-robinhood {
+    background: green;
+}
+
+.ggPlays {
+    background: red;
+}
+
+.project-card-overlay {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    height: 300px;
+    width: 300px;
+    transition: background-color .5s, backdrop-filter .3s;
+    background-color: transparent;
+    /* box-shadow: 0px 0px 45px 10px rgba(255, 255, 255, 0.993); */
+}
+
+.project-card:hover .project-card-overlay {
+    background-color: #1a19199a;
+    backdrop-filter: blur(3.5px);
+    /* display: block; */
+}
+
+.project-card-overlay__header {
+    position: absolute;
+    top: -60px;
+    height: 30px;
+    width: 280px;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    /* transition: top 1s; */
+    /* transform: translateY(50px); */
+    transition: transform .5s;
+    text-align: center;
+    text-shadow: .5px .5px #e782ebbe, -.5px -.5px #eeec7ebe, 0px 2px 5px #b9b9b9be;
+}
+
+.project-card-overlay:hover .project-card-overlay__header {
+    transform: translate(0px, 100px);
+}
+
+.project-card-overlay__learn-more {
+    position: absolute;
+    top: 110px;
+    right: -300px;
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    transition: transform .5s;
+}
+
+.project-card-overlay:hover .project-card-overlay__learn-more {
+    transform: translate(-300px, 0px);
+}
+
+.project-card-overlay__live-link {
+    position: absolute;
+    bottom: -60px;
+    height: 20px;
+    width: 280px;
+    border: 0px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    transition: transform .5s;
+    text-align: center;
+}.project-card-overlay__live-link:hover {
+    cursor: pointer;
+}
+
+.project-card-overlay:hover .project-card-overlay__live-link {
+    transform: translate(0px, -160px);
+}
+
+/*-------------Card Modal ---------------------------------------------------------------*/
+
+.project-container {
+    animation: fadebackground .5s;
+}
+
+@keyframes fadebackground {
+    from {
+        background-color: #1a1919e6;
+    }
+    to {
+        background-color: grey;
+    }
+}
+
+.project-container>h1 {
+    color: #1a1919e6;
+}

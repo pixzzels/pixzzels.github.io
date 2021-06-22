@@ -1,0 +1,14 @@
+.main-footer {
+    display: flex;
+    color: rgb(167, 167, 167);
+    justify-content: space-between;
+    margin: 20px 40px 20px 40px;
+    align-items: center;
+    
+}
+
+.copyright {
+    display: flex;
+    color: rgb(167, 167, 167);
+    align-items: center;
+}

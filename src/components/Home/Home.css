@@ -1,15 +1,176 @@
-.work-link-hover-object:hover {
-    will-change: transform;
-    transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
+/*----------NAVBAR------------------------------------------------*/
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 20px;
+    height: 50px;
+    position: absolute;
+    /* background-color: hsla(29, 100%, 91%, 0.75); */
 }
 
-.work-link-hover-inner:hover {
-    will-change: transform;
-    transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
+.name-container {
+    font-size: 30px;
+    color: #707070;
+    padding-top: 15px;
 }
 
-.w-inline-block {
-    display: inline-block;
+.name {
+    font-family: Kai;
+    font-size: 45px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #707070;
+    text-shadow: .5px .5px #e782ebbe, -.5px -.5px #eeec7ebe, 1px 1px 2px #ffffffbe;
+    /* text-shadow: -2px -2px #ffffffbe; */
+}
+
+.oc-tags-nav {
+    position: absolute;
+    top: 15px;
+    text-shadow: .3px .3px #e782ebbe, -.3px -.3px #eeec7ebe, 1px 1px 2px #ffffffbe;
+}
+
+.category-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 230px;
+}
+
+.category-link {
+    padding: 15px;
+    /* margin: 10px; */
+    text-decoration: none;
+    font-size: 20px;
+    color: #707070;
+    /* border: 1px solid pink; */
+    border-radius: 5px;
+}
+
+.category-link:hover {
+    background-color: rgba(238, 217, 255, 0.637);
+    /* border-bottom: 1px solid red; */
+}
+
+/*----------Home------------------------------------------------*/
+
+
+.home-wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* height: 1000px; */
+}
+
+.background {
+    z-index: -1;
+}
+
+.sticky-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    width: fit-content;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+
+
+/* .pix-container {
+    position: absolute;
+    left: 100px;
+    height: 100px; */
+
+/* width: 10px; */
+
+/* box-shadow: 0px 0px 0px 0px white; */
+
+/* animation-name: pixel-start, pixel-end;
+    animation-duration: 4s, 4s;
+    animation-delay: 0s, 4s;
+    animation-iteration-count: infinite;
+    width:1px;
+
+} */
+
+/* #pix-1 {
+    width: .5px;
+    animation-name: pixel-start, pixel-end;
+    animation-duration: 4s, 4s;
+    animation-delay: 0s, 4s;
+    animation-iteration-count: infinite;
+
+    stroke: #18191A; */
+
+/* box-shadow: 0px 0px 0px 0px white; */
+
+/* background-color: red; */
+
+/* } */
+
+/* @keyframes pixel-start {
+    from {stroke: #18191A;}
+    to {stroke: white;}
+    from {box-shadow: 0px 0px 0px 0px white;}
+    to {box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.548);}
+}
+
+@keyframes pixel-end {
+    from {stroke: white;}
+    to {stroke: #18191A;}
+    from {box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.548);}
+    to {box-shadow: 0px 0px 0px 0px white;}
+} */
+
+/* .pix-container {
+    position: absolute;
+    left: 100px;
+    height: 1000px;
+    animation-name: pixel-pulse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    width:1px;
+
+} */
+
+/*----------BACKGROUND------------------------------------------------*/
+
+
+#pix-1 {
+    width: .3px;
+    position: absolute;
+    left: 100px;
+    height: 100px;
+    /* animation: pixel-start 4s infinite; */
+    animation-name: pixel-pulse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: #18191A;
+    /* box-shadow: 0px 0px 0px 0px white; */
+    /* background-color: red; */
+}
+
+@keyframes pixel-pulse {
+    0% {
+        background-color: #18191A;
+    }
+    50% {
+        background-color: rgba(204, 204, 204, 0.815);
+    }
+    100% {
+        background-color: #18191A;
+    }
+    0% {
+        box-shadow: 0px 0px 0px 0px black;
+    }
+    50% {
+        box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.356);
+    }
+    100% {
+        box-shadow: 0px 0px 0px 0px black;
+    }
 }
