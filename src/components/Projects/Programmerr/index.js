@@ -18,6 +18,11 @@ function Programmerr() {
                 </div>
                 <div className="project-technologies">
                     <div className="project-technology">React</div>
+                    <div className="project-technology">Redux</div>
+                    <div className="project-technology">Python</div>
+                    <div className="project-technology">Flask</div>
+
+
                 </div>
 
                 <div className="project-images">
