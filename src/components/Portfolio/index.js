@@ -20,6 +20,9 @@ function Portfolio() {
 
     const [open, setOpen] = useState(false);
 
+    const closeModal = () => {
+        setProject(false)
+    }
     // let component;
     // // if (isRegister) {
     // component = <Programmerr />
@@ -63,8 +66,8 @@ function Portfolio() {
                         <img className="project-card-img" src={programmerrIcon}></img>
 
                         {project === "Programmerr" && (
-                            <Modal className="project-modal" onClose={() => setProject(false)}>
-                                <Programmerr />
+                            <Modal className="project-modal" onClose={() => closeModal()}>
+                                <Programmerr closeModal={closeModal}/>
                             </Modal>
                         )}
                     </div>
@@ -74,8 +77,8 @@ function Portfolio() {
                         <img className="project-card-img" src={luminnoIcon}></img>
 
                         {project === 'Luminno' && (
-                            <Modal className="project-modal-modal" onClose={() => setProject(false)}>
-                                <Luminno />
+                            <Modal className="project-modal-modal" onClose={() => closeModal()}>
+                                <Luminno closeModal={closeModal}/>
                             </Modal>
                         )}
                     </div>
@@ -85,8 +88,8 @@ function Portfolio() {
                         <img className="project-card-img" src={chaosRobinhoodIcon}></img>
 
                         {project === 'Chaos Robinhood' && (
-                            <Modal className="project-modal-modal" onClose={() => setProject(false)}>
-                                <ChaosRobinhood />
+                            <Modal className="project-modal-modal" onClose={() => closeModal()}>
+                                <ChaosRobinhood closeModal={closeModal}/>
                             </Modal>
                         )}
                     </div>

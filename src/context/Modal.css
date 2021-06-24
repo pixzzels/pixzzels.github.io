@@ -21,12 +21,13 @@
 #modal-content {
   position: absolute;
   /* background-color:#E4E6EB; */
-  background-color:#5a5a63b6;
+  background-color:#37373f;
   border-radius: 10px;
-  height: 600px;
+  height: 75vh;
   width: 150vh;
   /* border: 1px solid red; */
   padding: 40px;
+  overflow: hidden;
   animation: fadebackground .5s;
 
 }
@@ -36,7 +37,7 @@
       background-color: #1a1919e6;
   }
   to {
-      background-color: #5a5a63b6;
+      background-color: #37373f;
   }
 }
 
@@ -50,14 +51,5 @@
   justify-content: center;
   align-items: center;
   overflow-y: initial;
-}
-
-#modal-background {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: #18191A;
 }
 
