@@ -199,7 +199,7 @@
     background-color: transparent;
     border-bottom: 1px solid #E4E6EB;
     margin-bottom: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 35px;
 }
 
 .project-header {
@@ -256,12 +256,12 @@
 .project-description {
     /* color: #E4E6EB; */
     color: #B0B3B8;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 22px;
 
-    height: 30px;
+    height: 60px;
     background-color: transparent;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 30px;
 }
 
