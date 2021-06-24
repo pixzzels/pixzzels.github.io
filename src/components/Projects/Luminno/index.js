@@ -1,14 +1,10 @@
 import React from 'react';
 import luminnoFavicon from './luminno-favicon.png'
 
-import './Luminno.css';
-
 import luminno1 from './luminno-1.png';
 import luminno2 from './luminno-2.png';
 import luminno3 from './luminno-3.png';
 import luminno4 from './luminno-4.png';
-
-
 
 
 function Luminno({ closeModal }) {
@@ -34,7 +30,7 @@ function Luminno({ closeModal }) {
         <>
             <div className="project-container">
                 <div className="project-header-container">
-                    <img className="project-favicon" src={luminnoFavicon}></img>
+                    <img className="project-favicon" alt="luminno-favicon" src={luminnoFavicon}></img>
                     <div className="project-header-description">
                         <div className="project-header">
                             <h1>Luminno</h1>
@@ -63,19 +59,19 @@ function Luminno({ closeModal }) {
                 </div>
 
                 <div className="project-images">
-                    <div className="project-image-container" style={{ marginLeft: "250px" }}>
-                        <img className="project-image" src={luminno1}></img>
+                    <div className="project-image-container"style={{ marginLeft: "250px" }}>
+                        <img className="project-image" alt="luminno-img" src={luminno1}></img>
                     </div>
                     <div className="project-image-container">
-                        <img className="project-image" src={luminno2}></img>
+                        <img className="project-image" alt="luminno-img" src={luminno2}></img>
                     </div>
 
                     <div className="project-image-container">
-                        <img className="project-image" src={luminno3}></img>
+                        <img className="project-image" alt="luminno-img" src={luminno3}></img>
                     </div>
 
                     <div className="project-image-container" style={{ marginRight: "250px" }}>
-                        <img className="project-image" src={luminno4}></img>
+                        <img className="project-image" alt="luminno-img" src={luminno4}></img>
                     </div>
 
                 </div>

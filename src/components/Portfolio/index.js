@@ -18,7 +18,6 @@ function Portfolio() {
     const [content, setContent] = useState('')
     const [project, setProject] = useState('')
 
-    const [open, setOpen] = useState(false);
 
     const closeModal = () => {
         setProject(false)
@@ -63,7 +62,7 @@ function Portfolio() {
 
                         {cardOverlay("Programmerr", "https://programmerr.herokuapp.com/")}
 
-                        <img className="project-card-img" src={programmerrIcon}></img>
+                        <img className="project-card-img" alt="programmerr-icon" src={programmerrIcon}></img>
 
                         {project === "Programmerr" && (
                             <Modal className="project-modal" onClose={() => closeModal()}>
@@ -74,7 +73,7 @@ function Portfolio() {
                     <div className="project-card luminno">
                         {cardOverlay("Luminno", "https://luminno.herokuapp.com/")}
 
-                        <img className="project-card-img" src={luminnoIcon}></img>
+                        <img className="project-card-img" alt="luminno-icon" src={luminnoIcon}></img>
 
                         {project === 'Luminno' && (
                             <Modal className="project-modal-modal" onClose={() => closeModal()}>
@@ -85,7 +84,7 @@ function Portfolio() {
                     <div className="project-card chaos-robinhood">
                         {cardOverlay("Chaos Robinhood", "https://chaos-robinhood.herokuapp.com/")}
 
-                        <img className="project-card-img" src={chaosRobinhoodIcon}></img>
+                        <img className="project-card-img" alt="robinhood-icon" src={chaosRobinhoodIcon}></img>
 
                         {project === 'Chaos Robinhood' && (
                             <Modal className="project-modal-modal" onClose={() => closeModal()}>
@@ -96,7 +95,7 @@ function Portfolio() {
                     <div className="project-card ggPlays">
                         {cardOverlay("GGPlays", "https://ggplays.herokuapp.com/")}
 
-                        <img className="project-card-img" src={ggPlaysIcon}></img>
+                        <img className="project-card-img" alt="ggplays-icon" src={ggPlaysIcon}></img>
 
                         {project === 'GGPlays' && (
                             <Modal className="project-modal" onClose={() => setProject(false)}>

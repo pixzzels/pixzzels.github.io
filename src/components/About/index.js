@@ -6,7 +6,7 @@ function About() {
         <>
             <div id="about-wrapper">
                 <div className="about-container">
-                    <img className="profile-img" src="https://i.ibb.co/HKRC9m4/IMG-0664.jpg"></img>
+                    <img className="profile-img" alt="profile-img" src="https://i.ibb.co/HKRC9m4/IMG-0664.jpg"></img>
                     <div className="about-right">
                         <h1>Hey There! Ellen Park here...</h1>
                         <div className="about-description">

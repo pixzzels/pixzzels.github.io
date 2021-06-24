@@ -10,7 +10,7 @@ function MainFooter() {
                     Developed & Designed by: Ellen Park
                 </div>
                 <div className="copyright">
-                    <i class="far fa-copyright" style={{marginRight:"5px"}}></i>
+                    <i className="far fa-copyright" style={{marginRight:"5px"}}></i>
                     <p> 2021</p>
                 </div>
             </div>

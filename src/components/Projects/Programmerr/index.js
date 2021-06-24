@@ -1,8 +1,6 @@
 import React from 'react';
 import programmerrFavicon from './programmerr-favicon.png'
 
-import './Programmerr.css';
-
 import programmerr1 from './programmerr-1.png';
 import programmerr2 from './programmerr-2.png';
 import programmerr3 from './programmerr-3.png';
@@ -36,7 +34,7 @@ function Programmerr({ closeModal }) {
         <>
             <div className="project-container">
                 <div className="project-header-container">
-                    <img className="project-favicon" src={programmerrFavicon}></img>
+                    <img className="project-favicon" alt="programmerr-favicon" src={programmerrFavicon}></img>
                     <div className="project-header-description">
                         <div className="project-header">
                             <h1>Programmerr</h1>
@@ -66,27 +64,27 @@ function Programmerr({ closeModal }) {
 
                 <div className="project-images">
                     <div className="project-image-container" style={{ marginLeft: "250px" }}>
-                        <img className="project-image" src={programmerr1}></img>
+                        <img className="project-image" alt="programmerr-img" src={programmerr1}></img>
                     </div>
                     <div className="project-image-container">
-                        <img className="project-image" src={programmerr2}></img>
-                    </div>
-
-                    <div className="project-image-container">
-                        <img className="project-image" src={programmerr3}></img>
+                        <img className="project-image" alt="programmerr-img" src={programmerr2}></img>
                     </div>
 
                     <div className="project-image-container">
-                        <img className="project-image" src={programmerr4}></img>
+                        <img className="project-image" alt="programmerr-img" src={programmerr3}></img>
+                    </div>
+
+                    <div className="project-image-container">
+                        <img className="project-image" alt="programmerr-img" src={programmerr4}></img>
                     </div>
                     <div className="project-image-container">
-                        <img className="project-image" src={programmerr5}></img>
+                        <img className="project-image" alt="programmerr-img" src={programmerr5}></img>
                     </div>
                     <div className="project-image-container">
-                        <img className="project-image" src={programmerr6}></img>
+                        <img className="project-image" alt="programmerr-img" src={programmerr6}></img>
                     </div>
                     <div className="project-image-container" style={{ marginRight: "250px" }}>
-                        <img className="project-image" src={programmerr7}></img>
+                        <img className="project-image" alt="programmerr-img" src={programmerr7}></img>
                     </div>
                 </div>
             </div>
