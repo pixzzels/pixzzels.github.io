@@ -1,0 +1,39 @@
+.contact-form {
+    border: 1px solid pink;
+    margin: auto;
+    height: 20em;
+    width: 60em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-form > h2 {
+    color: #B0B3B8;
+    font-size: 32px;
+    text-align: center;
+}
+
+#contact-form__name-email-container {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.contact-form__label {
+    color: #B0B3B8;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+/* .contact-form > input {
+    margin-left: 30px;
+    width: 20em;
+
+} */
+
+.contact-form  > textarea {
+    margin-left: 30px;
+    width: 40em;
+    height: 70px;
+}

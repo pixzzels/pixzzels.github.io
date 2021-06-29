@@ -13,8 +13,8 @@ const App = () => {
     <>
       {/* <SplashPage /> */}
       {/* <Navigation /> */}
-      <Switch>
-        {/* <Route path="/about">
+      {/* <Switch> */}
+      {/* <Route path="/about">
           <About />
         </Route>
         <Route path="/projects">
@@ -23,10 +23,10 @@ const App = () => {
         <Route path="/contact">
           <Contact />
         </Route> */}
-        <Route exact path="/">
-          <Home />
-        </Route>
-      </Switch>
+      {/* <Route exact path="/"> */}
+      <Home />
+      {/* </Route>
+      </Switch> */}
       <Footer />
       <MainFooter />
     </>

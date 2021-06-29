@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import About from '../../components/About';
 import Portfolio from '../../components/Portfolio';
+import Contact from '../../components/Contact';
 
 
 import './Home.css';
@@ -34,6 +35,7 @@ function Home() {
                 </div>
                 <About />
                 <Portfolio />
+                <Contact />
             </div>
         </>
     )

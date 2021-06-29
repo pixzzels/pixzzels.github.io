@@ -10,7 +10,7 @@ function About() {
                     <div className="about-right">
                         <h1>Hey There! Ellen Park here...</h1>
                         <div className="about-description">
-                            I am a highly creative and motivated full-stack software developer. I have passion for learning and trying new things, and with programming, there's never an end to what I can learn whether they are new technologies and languages, or earning mastery of my current skills such as Javascript, React, Redux, Python, and Flask. I love entertaining hobbies that allow me to expand on my creativity like writing and graphic design.
+                        If I were an animal, I’d be a bird. Why? I love the open space. The freedom to go anywhere. Do anything. I love exploring my creativity, and being able to express it. However, I can get carried away sometimes, and need to be brought back to earth and grounded. This is how I view programming. The front end feels like that open space where I can just soar, expand on my inspirations, without limits. The backend is where I feel grounded, and gives me a sense of purpose and direction for what I should be aiming to achieve. Programming is where I can live in the expansive place of air, and also be grounded into my foundation.
                         </div>
                         <div className="about-find-me">
                             <a href="https://github.com/pixzzels">
