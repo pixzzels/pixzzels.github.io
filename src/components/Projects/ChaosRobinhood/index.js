@@ -38,8 +38,14 @@ function ChaosRobinhood({ closeModal }) {
                         <div className="project-header">
                             <h1>Robinhood</h1>
                             <div>
-                                <button className="modal-header-btn">Live Link</button>
-                                <button className="modal-header-btn">GitHub</button>
+                                <button className="modal-header-btn">
+                                    <a href="https://chaos-robinhood.herokuapp.com/">
+                                        Live Link
+                                    </a>
+                                </button>
+                                <button className="modal-header-btn">
+                                    <a href="https://github.com/pixzzels/Robinhood">GitHub</a>
+                                </button>
                                 <button className="modal-header-btn" onClick={closeModal}>X</button>
                             </div>
                         </div>
@@ -65,7 +71,7 @@ function ChaosRobinhood({ closeModal }) {
                     <div className="project-image-container" style={{ marginLeft: "250px" }}>
                         <img className="project-image" alt="robinhood-img" src={robinhood1}></img>
                     </div>
-                    <div className="project-image-container" style={{ marginRight: "250px"}}>
+                    <div className="project-image-container" style={{ marginRight: "250px" }}>
                         <img className="project-image" alt="robinhood-img" src={robinhood2}></img>
                     </div>
 

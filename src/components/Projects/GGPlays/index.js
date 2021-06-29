@@ -36,16 +36,21 @@ function GGPlays({ closeModal }) {
                     <img className="project-favicon" alt="luminno-favicon" src={luminnoFavicon}></img>
                     <div className="project-header-description">
                         <div className="project-header">
-                            <h1>Luminno</h1>
+                            <h1>ggPlays</h1>
                             <div>
-                                <button className="modal-header-btn">Live Link</button>
-                                <button className="modal-header-btn">GitHub</button>
+                                <button className="modal-header-btn">
+                                    <a href="https://ggplays.herokuapp.com/">
+                                    Live Link
+                                    </a>
+                                </button>
+                                <button className="modal-header-btn">
+                                    <a href="https://github.com/Hieu-Ma/ggplays">GitHub</a>
+                                </button>
                                 <button className="modal-header-btn" onClick={closeModal}>X</button>
                             </div>
                         </div>
                         <div className="project-description">
-                        Luminno is a web application that allows users to see listings, add listings to cart, buy items(simulation). This was inspired by Etsy, a global online marketplace, where people come together to make, sell, buy, and collect unique items. The twist on Luminno is that it is designed for those who succeed on Etsy, and want their own website instead of having it a part of a bigger community.
-                        </div>
+                            ggPlays is a web application that allows users to view various video games, publish game reviews, and catalog games into game shelves that can be customized. This was inspired by Goodreads, a website where individuals can search for books, create reviews, catalog books into libraries, discuss all things books, and more.                        </div>
                     </div>
                 </div>
 
@@ -62,7 +67,7 @@ function GGPlays({ closeModal }) {
                 </div>
 
                 <div className="project-images">
-                    <div className="project-image-container"style={{ marginLeft: "250px" }}>
+                    <div className="project-image-container" style={{ marginLeft: "250px" }}>
                         <img className="project-image" alt="luminno-img" src={ggplays1}></img>
                     </div>
                     <div className="project-image-container">

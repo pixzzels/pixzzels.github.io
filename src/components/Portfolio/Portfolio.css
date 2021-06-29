@@ -238,10 +238,15 @@
     border-radius: 5px;
     background-color: transparent;
     color: #B0B3B8;
+}.modal-header-btn:hover {
+    border: 1px solid white;
+    color: white;
 }
 
-.modal-header-btn:hover {
-    border: 1px solid white;
+.modal-header-btn > a{
+    text-decoration: none;
+    color: #B0B3B8;
+}.modal-header-btn:hover > a {
     color: white;
 }
 

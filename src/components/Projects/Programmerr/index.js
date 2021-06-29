@@ -39,8 +39,14 @@ function Programmerr({ closeModal }) {
                         <div className="project-header">
                             <h1>Programmerr</h1>
                             <div>
-                                <button className="modal-header-btn">Live Link</button>
-                                <button className="modal-header-btn">GitHub</button>
+                                <button className="modal-header-btn">
+                                    <a href="https://programmerr.herokuapp.com/">
+                                        Live Link
+                                    </a>
+                                </button>
+                                <button className="modal-header-btn">
+                                    <a href="https://github.com/pixzzels/Programmerr">GitHub</a>
+                                </button>
                                 <button className="modal-header-btn" onClick={closeModal}>X</button>
                             </div>
                         </div>
