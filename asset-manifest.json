@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a09efb81.chunk.css",
-    "main.js": "/static/js/main.1f21daf2.chunk.js",
-    "main.js.map": "/static/js/main.1f21daf2.chunk.js.map",
+    "main.js": "/static/js/main.88d011e6.chunk.js",
+    "main.js.map": "/static/js/main.88d011e6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.989a2f8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.989a2f8e.js.map",
     "static/js/2.a55ccb97.chunk.js": "/static/js/2.a55ccb97.chunk.js",
@@ -11,6 +11,13 @@
     "static/css/main.a09efb81.chunk.css.map": "/static/css/main.a09efb81.chunk.css.map",
     "static/js/2.a55ccb97.chunk.js.LICENSE.txt": "/static/js/2.a55ccb97.chunk.js.LICENSE.txt",
     "static/media/chaos-robinhood-icon.04b8e3d2.png": "/static/media/chaos-robinhood-icon.04b8e3d2.png",
+    "static/media/ggplays-1.258c068d.png": "/static/media/ggplays-1.258c068d.png",
+    "static/media/ggplays-2.0b2fec78.png": "/static/media/ggplays-2.0b2fec78.png",
+    "static/media/ggplays-3.a867616f.png": "/static/media/ggplays-3.a867616f.png",
+    "static/media/ggplays-4.1b8aa5a2.png": "/static/media/ggplays-4.1b8aa5a2.png",
+    "static/media/ggplays-5.a199d55d.png": "/static/media/ggplays-5.a199d55d.png",
+    "static/media/ggplays-6.09811010.png": "/static/media/ggplays-6.09811010.png",
+    "static/media/ggplays-7.d98a3417.png": "/static/media/ggplays-7.d98a3417.png",
     "static/media/ggplays-icon.fd273214.png": "/static/media/ggplays-icon.fd273214.png",
     "static/media/luminno-1.eb417f47.png": "/static/media/luminno-1.eb417f47.png",
     "static/media/luminno-2.81a4cc9f.png": "/static/media/luminno-2.81a4cc9f.png",
@@ -32,6 +39,6 @@
     "static/js/runtime-main.989a2f8e.js",
     "static/js/2.a55ccb97.chunk.js",
     "static/css/main.a09efb81.chunk.css",
-    "static/js/main.1f21daf2.chunk.js"
+    "static/js/main.88d011e6.chunk.js"
   ]
 }
