@@ -5,6 +5,7 @@
     width: 50em;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .contact-form>h2 {
@@ -71,10 +72,9 @@
     background-color: transparent;
     color: #c6cbd3;
     font-size: 20px;
-    border: 1px solid #c6cbd3;
+    border: 1px solid #bec3cc;
     padding: 10px;
     font-weight: bold;
-
 }
 
 .contact-form-btn:hover {

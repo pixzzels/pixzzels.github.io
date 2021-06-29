@@ -9,8 +9,6 @@ import programmerr5 from './programmerr-5.png';
 import programmerr6 from './programmerr-6.png';
 import programmerr7 from './programmerr-7.png';
 
-
-
 function Programmerr({ closeModal }) {
     const colors = ["#ff7694", "#2FE6DE", "#F5E0B7", "#8d8de0", "#FF6B6B", "#CBF7ED", "#CA907E", "#FAFAC6"];
 

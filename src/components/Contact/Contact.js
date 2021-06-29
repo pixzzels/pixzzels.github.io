@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import './Contact.css'
 
 function Contact() {
 
     const [state, handleSubmit] = useForm("xvodqrrg");
+
+    
     if (state.succeeded) {
-        return <p>Your message has been sent!</p>;
+        return (
+            <>
+                <div className="contact-form">
+                    <h2>Your message has been sent!</h2>
+                </div>
+            </>
+        )
     }
 
     const colors = ["#ff7694", "#2FE6DE", "#F5E0B7", "#8d8de0", "#FF6B6B", "#CBF7ED", "#CA907E", "#FAFAC6"];
@@ -39,7 +47,7 @@ function Contact() {
                         <input type="text" name="name" id="name" />
 
                     </div>
-                    <div className="contact-form__flex" style={{marginLeft:"35px"}}>
+                    <div className="contact-form__flex" style={{ marginLeft: "35px" }}>
                         <label className="contact-form__label" htmlFor="email">
                             Email Address
                         </label>
@@ -48,7 +56,7 @@ function Contact() {
                             type="email"
                             name="email"
                         />
-                        <ValidationError
+                        <ValidationError style={{color:"#ec6767"}}
                             prefix="Email"
                             field="email"
                             errors={state.errors}
@@ -56,7 +64,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className="contact-form__flex2">
-                    <label className="contact-form__label" htmlFor="message" style={{marginTop:"30px"}}>
+                    <label className="contact-form__label" htmlFor="message" style={{ marginTop: "30px" }}>
                         Message
                     </label>
                     <textarea
@@ -64,7 +72,7 @@ function Contact() {
                         name="message"
                         placeholder=""
                     />
-                    <ValidationError
+                    <ValidationError style={{color:"#ec6767"}}
                         prefix="Message"
                         field="message"
                         errors={state.errors}
