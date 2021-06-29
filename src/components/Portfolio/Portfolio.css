@@ -15,9 +15,7 @@
     padding: 20px;
     background-color: transparent;
     margin-bottom: 30px;
-}
-
-.menu-bar:hover {
+}.menu-bar:hover {
     cursor: pointer;
     text-shadow: 1px 1px 10px rgba(219, 219, 219, 0.671);
 }

@@ -15,7 +15,7 @@ import './Portfolio.css';
 
 function Portfolio() {
 
-    const [content, setContent] = useState('')
+    const [content, setContent] = useState('all')
     const [project, setProject] = useState('')
 
 
@@ -41,6 +41,61 @@ function Portfolio() {
         )
     }
 
+    const programmerr =
+        <div className="project-card programmerr">
+            {cardOverlay("Programmerr", "https://programmerr.herokuapp.com/")}
+
+            <img className="project-card-img" alt="programmerr-icon" src={programmerrIcon}></img>
+
+            {project === "Programmerr" && (
+                <Modal className="project-modal" onClose={() => closeModal()}>
+                    <Programmerr closeModal={closeModal} />
+                </Modal>
+            )}
+        </div>
+
+    const luminno =
+        <div className="project-card luminno">
+            {cardOverlay("Luminno", "https://luminno.herokuapp.com/")}
+
+            <img className="project-card-img" alt="luminno-icon" src={luminnoIcon}></img>
+
+            {project === 'Luminno' && (
+                <Modal className="project-modal-modal" onClose={() => closeModal()}>
+                    <Luminno closeModal={closeModal} />
+                </Modal>
+            )}
+        </div>
+
+    const robinhood =
+        <div className="project-card chaos-robinhood">
+            {cardOverlay("Chaos Robinhood", "https://chaos-robinhood.herokuapp.com/")}
+
+            <img className="project-card-img" alt="robinhood-icon" src={chaosRobinhoodIcon}></img>
+
+            {project === 'Chaos Robinhood' && (
+                <Modal className="project-modal-modal" onClose={() => closeModal()}>
+                    <ChaosRobinhood closeModal={closeModal} />
+                </Modal>
+            )}
+        </div>
+
+
+    const ggplays =
+        <div className="project-card ggPlays">
+            {cardOverlay("GGPlays", "https://ggplays.herokuapp.com/")}
+
+            <img className="project-card-img" alt="ggplays-icon" src={ggPlaysIcon}></img>
+
+            {project === 'GGPlays' && (
+                <Modal className="project-modal" onClose={() => setProject(false)}>
+                    <GGPlays closeModal={closeModal} />
+                </Modal>
+            )}
+        </div>
+
+
+
     return (
 
 
@@ -48,64 +103,42 @@ function Portfolio() {
             <div id="portfolio">
                 <div className="projects-menu-bar">
                     <div className={"menu-bar menu-bar__react " + (content === 'react' ? "menu-bar-active" : '')} onClick={() => setContent('react')}>React</div>
-                    <div className="menu-bar menu-bar__python" onClick={() => setContent('python')}>Python</div>
-                    <div className="menu-bar menu-bar__express" onClick={() => setContent('express')}>Express</div>
-                    <div className="menu-bar menu-bar__other" onClick={() => setContent('all')}>All</div>
+                    <div className={"menu-bar menu-bar__python " + (content === 'python' ? "menu-bar-active" : '')} onClick={() => setContent('python')}>Python</div>
+                    <div className={"menu-bar menu-bar__express " + (content === 'express' ? "menu-bar-active" : '')} onClick={() => setContent('express')}>Express</div>
+                    <div className={"menu-bar menu-bar__other " + (content === 'all' ? "menu-bar-active" : '')} onClick={() => setContent('all')}>All</div>
                 </div>
                 <div className="projects-container">
-                    {/* <div className="project-card-shadow"></div> */}
-                    {/* <div className="project-card-shadow"></div>
-                    <div className="project-card-shadow"></div> */}
+                    {content === "react" &&
+                        <>
+                            {programmerr}
+                            {robinhood}
+                            {luminno}
+                        </>
 
+                    }
+                    {content === "python" &&
+                        <>
+                            {programmerr}
+                            {robinhood}
+                        </>
 
-                    <div className="project-card programmerr">
+                    }
+                    {content === "express" &&
+                        <>
+                            {luminno}
+                            {ggplays}
+                        </>
 
-                        {cardOverlay("Programmerr", "https://programmerr.herokuapp.com/")}
+                    }
+                    {content === "all" &&
+                        <>
+                            {programmerr}
+                            {robinhood}
+                            {luminno}
+                            {ggplays}
+                        </>
 
-                        <img className="project-card-img" alt="programmerr-icon" src={programmerrIcon}></img>
-
-                        {project === "Programmerr" && (
-                            <Modal className="project-modal" onClose={() => closeModal()}>
-                                <Programmerr closeModal={closeModal}/>
-                            </Modal>
-                        )}
-                    </div>
-                    <div className="project-card luminno">
-                        {cardOverlay("Luminno", "https://luminno.herokuapp.com/")}
-
-                        <img className="project-card-img" alt="luminno-icon" src={luminnoIcon}></img>
-
-                        {project === 'Luminno' && (
-                            <Modal className="project-modal-modal" onClose={() => closeModal()}>
-                                <Luminno closeModal={closeModal}/>
-                            </Modal>
-                        )}
-                    </div>
-                    <div className="project-card chaos-robinhood">
-                        {cardOverlay("Chaos Robinhood", "https://chaos-robinhood.herokuapp.com/")}
-
-                        <img className="project-card-img" alt="robinhood-icon" src={chaosRobinhoodIcon}></img>
-
-                        {project === 'Chaos Robinhood' && (
-                            <Modal className="project-modal-modal" onClose={() => closeModal()}>
-                                <ChaosRobinhood closeModal={closeModal}/>
-                            </Modal>
-                        )}
-                    </div>
-                    <div className="project-card ggPlays">
-                        {cardOverlay("GGPlays", "https://ggplays.herokuapp.com/")}
-
-                        <img className="project-card-img" alt="ggplays-icon" src={ggPlaysIcon}></img>
-
-                        {project === 'GGPlays' && (
-                            <Modal className="project-modal" onClose={() => setProject(false)}>
-                                <GGPlays closeModal={closeModal}/>
-                            </Modal>
-                        )}
-
-                    </div>
-
-
+                    }
 
                 </div>
 
