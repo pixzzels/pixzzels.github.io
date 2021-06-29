@@ -11,7 +11,7 @@ function About() {
                     <div className="about-right">
                         <h1>Hey There! Ellen Park here...</h1>
                         <div className="about-description">
-                            If I were an animal, I’d be a bird. Why? I love the open space. The freedom to go anywhere. Do anything. I love exploring my creativity, and being able to express it. However, I can get carried away sometimes, and need to be brought back to earth and grounded. This is how I view programming. The front end feels like that open space where I can just soar, expand on my inspirations, without limits. The backend is where I feel grounded, and gives me a sense of purpose and direction for what I should be aiming to achieve. Programming is where I can live in the expansive place of air, and also be grounded into my foundation.
+                            If I were an animal, I’d be a bird. Why? I love the open space. The freedom to go anywhere. Do anything. I love exploring my creativity, and being able to express it. However, I can get carried away in the world of CSS, and need to be brought back down to earth. This is how I view programming. The front end is an open space where I can soar and expand on my inspirations without limits. The backend is where I am grounded, and gives me a sense of purpose and direction for what I should be aiming to achieve. Programming is where I am able to live in the expansive place of air, but also be grounded into my foundation.
                         </div>
                         <div className="about-find-me">
                             <a href="https://github.com/pixzzels">
