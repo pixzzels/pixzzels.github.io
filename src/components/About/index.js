@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import EllenParkResume from '././Ellen__Park__Resume.pdf';
 
 function About() {
     return (
@@ -21,6 +22,13 @@ function About() {
                             </a>
                             <a href="#contact">
                                 <i className="contact-icon far fa-envelope"></i>
+                            </a>
+                            <a href={EllenParkResume} download style={{display:"flex", alignItems:"center", textDecoration:"none"}}>
+                                <i className="contact-icon far fa-file"></i>
+                                <div style={{fontSize:"16px", color:"#B0B3B8"}}>
+                                    <div>Download</div>
+                                    <div>Resume</div>
+                                </div>
                             </a>
                         </div>
                     </div>
