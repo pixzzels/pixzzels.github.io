@@ -99,7 +99,7 @@ function Portfolio() {
 
                         {project === 'GGPlays' && (
                             <Modal className="project-modal" onClose={() => setProject(false)}>
-                                <GGPlays />
+                                <GGPlays closeModal={closeModal}/>
                             </Modal>
                         )}
 
