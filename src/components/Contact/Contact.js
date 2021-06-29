@@ -38,7 +38,7 @@ function Contact() {
 
     return (
         <div>
-            <form className="contact-form" onSubmit={handleSubmit}>
+            <form className="contact-form" id="contact" onSubmit={handleSubmit}>
                 <h2>Get in touch!</h2>
                 <div id="contact-form__name-email-container">
                     <div className="contact-form__flex">

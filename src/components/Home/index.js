@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import About from '../../components/About';
 import Portfolio from '../../components/Portfolio';
 import Contact from '../../components/Contact';
@@ -14,9 +14,8 @@ function Home() {
             <nav className="nav-container">
 
                 <div className="category-container">
-                    <Link className="category-link" to="about">About</Link>
-                    <NavLink className="category-link" to="/projects">Portfolio</NavLink>
-                    <NavLink className="category-link" to="/contact">Contact</NavLink>
+                    <a className="category-link" href="#portfolio">Portfolio</a>
+                    <a className="category-link" href="#contact">Contact</a>
 
                 </div>
             </nav>

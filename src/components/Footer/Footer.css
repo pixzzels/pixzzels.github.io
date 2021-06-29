@@ -21,6 +21,8 @@
     position: absolute;
     bottom: 7px;
     left: -15px;
+    color: #464646;
+    text-shadow: .5px .5px #e782ebbe, -.5px -.5px #eeec7ebe, 1px 1px 3px #ffffffbe;
 }
 
 .oc-tags-footer-slash {
@@ -29,10 +31,14 @@
     left: 6px;
     font-size: 50px;
     font-weight: 200;
+    color: #464646;
+    text-shadow: .5px .5px #e782ebbe, -.5px -.5px #eeec7ebe, 1px 1px 3px #ffffffbe;
 }
 
 
 .oc-tags-footer {
     position: absolute;
     bottom: 7px;
+    color: #464646;
+    text-shadow: .5px .5px #e782ebbe, -.5px -.5px #eeec7ebe, 1px 1px 3px #ffffffbe;
 }
