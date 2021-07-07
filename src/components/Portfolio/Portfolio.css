@@ -287,12 +287,13 @@
     display: flex;
     /* border: 1px solid red; */
     overflow-x: scroll;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .project-image-container {
-    height: 425px;
-    width: 768px;
+    /* height: 425px; */
+    height: 50vh;
+    /* width: 768px; */
     margin: 20px;
     margin-top: 30px;
     /* padding: 10px; */
@@ -300,8 +301,9 @@
 } 
 
 .project-image {
-    height: 425px;
-    width: 768px;
+    /* height: 425px; */
+    height: 50vh;
+    /* width: 768px; */
     border-radius: 10px;
     box-shadow: 0px 3px 10px 3px#181818a1;
     border-radius: 10px;
