@@ -60,7 +60,7 @@ function Programmerr({ closeModal }) {
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Redux</div>
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Python</div>
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Flask</div>
-                    <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>AWS</div>
+                    <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>AWS S3</div>
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Docker</div>
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>AdobeXD</div>
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Flask</div>
