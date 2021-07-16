@@ -50,7 +50,7 @@ function ChaosRobinhood({ closeModal }) {
                             </div>
                         </div>
                         <div className="project-description">
-                            Robinhood, an almost pixel perfect clone by Fiverr, an online marketplace for freelance services.
+                            Chaos-Robinhood, a clone of Robinhood, a platform for commission-free trades of stocks and exchange-traded funds.
                         </div>
                     </div>
                 </div>
@@ -61,10 +61,13 @@ function ChaosRobinhood({ closeModal }) {
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Redux</div>
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Python</div>
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Flask</div>
-                    <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>AWS</div>
+                    <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>SQLAlchemy</div>\
+                    <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>IEDCloud API</div>
+                    {/* <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>AWS</div> */}
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Docker</div>
+                    <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Heroku</div>
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>AdobeXD</div>
-                    <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Flask</div>
+                    {/* <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Flask</div> */}
                 </div>
 
                 <div className="project-images">
