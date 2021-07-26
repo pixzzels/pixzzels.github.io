@@ -43,7 +43,7 @@ function Portfolio() {
 
     const programmerr =
         <div className="project-card programmerr">
-            {cardOverlay("Programmerr", "https://programmerr.herokuapp.com/")}
+            {cardOverlay("Programmerr", "https://programmerr-app.herokuapp.com/")}
 
             <img className="project-card-img" alt="programmerr-icon" src={programmerrIcon}></img>
 
@@ -56,7 +56,7 @@ function Portfolio() {
 
     const luminno =
         <div className="project-card luminno">
-            {cardOverlay("Luminno", "https://luminno.herokuapp.com/")}
+            {cardOverlay("Luminno", "https://luminno-app.herokuapp.com/")}
 
             <img className="project-card-img" alt="luminno-icon" src={luminnoIcon}></img>
 
@@ -69,7 +69,7 @@ function Portfolio() {
 
     const robinhood =
         <div className="project-card chaos-robinhood">
-            {cardOverlay("Chaos Robinhood", "https://chaos-robinhood.herokuapp.com/")}
+            {cardOverlay("Chaos Robinhood", "https://chaos-robinhood-app.herokuapp.com/")}
 
             <img className="project-card-img" alt="robinhood-icon" src={chaosRobinhoodIcon}></img>
 
