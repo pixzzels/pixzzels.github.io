@@ -61,7 +61,7 @@ function ChaosRobinhood({ closeModal }) {
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Redux</div>
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Python</div>
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Flask</div>
-                    <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>SQLAlchemy</div>\
+                    <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>SQLAlchemy</div>
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>IEDCloud API</div>
                     {/* <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>AWS</div> */}
                     <div className="project-technology" onMouseOver={changeBackground} onMouseLeave={changeBackground2}>Docker</div>

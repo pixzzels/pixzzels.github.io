@@ -39,7 +39,7 @@
     /* margin-left: 30px; */
     width: 24vw;
     height: 30px;
-    background-color: #bec3cc;
+    background-color: #d6dce7;
     border: none;
     outline: none;
     font-size: 14px;
@@ -56,7 +56,7 @@
 .contact-form__flex2>textarea {
     width: 50vw;
     height: 70px;
-    background-color: #bec3cc;
+    background-color: #d6dce7;
     border: none;
     outline: none;
     font-size: 14px;

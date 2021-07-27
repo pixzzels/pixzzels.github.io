@@ -16,7 +16,6 @@
     width: fit-content;
     margin-right: auto;
     margin-top: 0px;
-
     /* The typwriter cursor */
     white-space: nowrap;
     /* Keeps the content on a single line */
@@ -86,6 +85,8 @@
 
 .tech-header {
     color: #B0B3B8;
+    margin: auto;
+    margin-bottom: 15px;
 }
 
 .technologies {

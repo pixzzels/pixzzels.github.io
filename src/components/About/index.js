@@ -46,7 +46,7 @@ function About() {
                         <i className="tech__icon devicon-sequelize-plain-wordmark" style={{ color: "#B0B3B8" }}></i>
                         <i className="tech__icon devicon-express-original-wordmark" style={{ color: "#B0B3B8" }}></i>
                         <i className="tech__icon devicon-nodejs-plain colored"></i>
-                        <i className="devicon-amazonwebservices-original"></i>
+                        <i className="tech__icon devicon-amazonwebservices-original" style={{ color: "#B0B3B8" }}></i>
                         <i className="tech__icon devicon-sqlalchemy-plain" style={{ color: "#B0B3B8" }}></i>
                         <i className="tech__icon devicon-flask-original-wordmark" style={{ color: "#B0B3B8" }}></i>
                         <i className="tech__icon devicon-html5-plain-wordmark colored"></i>
