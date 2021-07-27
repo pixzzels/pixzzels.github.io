@@ -38,7 +38,7 @@ function Programmerr({ closeModal }) {
                             <h1>Programmerr</h1>
                             <div>
                                 <button className="modal-header-btn">
-                                    <a href="https://programmerr.herokuapp.com/">
+                                    <a href="https://programmerr-app.herokuapp.com/">
                                         Live Link
                                     </a>
                                 </button>

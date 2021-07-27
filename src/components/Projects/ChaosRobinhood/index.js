@@ -39,7 +39,7 @@ function ChaosRobinhood({ closeModal }) {
                             <h1>Robinhood</h1>
                             <div>
                                 <button className="modal-header-btn">
-                                    <a href="https://chaos-robinhood.herokuapp.com/">
+                                    <a href="https://chaos-robinhood-app.herokuapp.com/">
                                         Live Link
                                     </a>
                                 </button>

@@ -36,7 +36,7 @@ function Luminno({ closeModal }) {
                             <h1>Luminno</h1>
                             <div>
                                 <button className="modal-header-btn">
-                                    <a href="https://luminno.herokuapp.com/">
+                                    <a href="https://luminno-app.herokuapp.com/">
                                         Live Link
                                     </a>
                                 </button>
