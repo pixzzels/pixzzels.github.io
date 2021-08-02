@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8c9e8650.chunk.css",
-    "main.js": "/static/js/main.83f06e6e.chunk.js",
-    "main.js.map": "/static/js/main.83f06e6e.chunk.js.map",
+    "main.js": "/static/js/main.ab4283da.chunk.js",
+    "main.js.map": "/static/js/main.ab4283da.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.989a2f8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.989a2f8e.js.map",
     "static/js/2.2e147b5f.chunk.js": "/static/js/2.2e147b5f.chunk.js",
@@ -32,14 +32,19 @@
     "static/media/programmerr-5.2c11185a.png": "/static/media/programmerr-5.2c11185a.png",
     "static/media/programmerr-6.1bb8f6f0.png": "/static/media/programmerr-6.1bb8f6f0.png",
     "static/media/programmerr-7.5b1da2fa.png": "/static/media/programmerr-7.5b1da2fa.png",
+    "static/media/programmerr-8.5b1c2095.png": "/static/media/programmerr-8.5b1c2095.png",
     "static/media/programmerr-icon.c6dae07a.png": "/static/media/programmerr-icon.c6dae07a.png",
     "static/media/robinhood-1.c2be70f6.png": "/static/media/robinhood-1.c2be70f6.png",
-    "static/media/robinhood-2.f5ae4215.png": "/static/media/robinhood-2.f5ae4215.png"
+    "static/media/robinhood-2.f5ae4215.png": "/static/media/robinhood-2.f5ae4215.png",
+    "static/media/robinhood-3.609a54ca.png": "/static/media/robinhood-3.609a54ca.png",
+    "static/media/robinhood-4.708ac0c1.png": "/static/media/robinhood-4.708ac0c1.png",
+    "static/media/robinhood-5.3930401b.png": "/static/media/robinhood-5.3930401b.png",
+    "static/media/robinhood-6.5f304576.png": "/static/media/robinhood-6.5f304576.png"
   },
   "entrypoints": [
     "static/js/runtime-main.989a2f8e.js",
     "static/js/2.2e147b5f.chunk.js",
     "static/css/main.8c9e8650.chunk.css",
-    "static/js/main.83f06e6e.chunk.js"
+    "static/js/main.ab4283da.chunk.js"
   ]
 }
