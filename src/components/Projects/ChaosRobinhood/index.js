@@ -3,10 +3,10 @@ import robinhoodFavicon from './robinhood-favicon.png'
 
 import robinhood1 from './robinhood-1.png';
 import robinhood2 from './robinhood-2.png';
-// import robinhood3 from './robinhood-3.png';
-// import robinhood4 from './robinhood-4.png';
-// import robinhood5 from './robinhood-5.png';
-// import robinhood6 from './robinhood-6.png';
+import robinhood3 from './robinhood-3.png';
+import robinhood4 from './robinhood-4.png';
+import robinhood5 from './robinhood-5.png';
+import robinhood6 from './robinhood-6.png';
 // import robinhood7 from './robinhood-7.png';
 
 
@@ -74,11 +74,11 @@ function ChaosRobinhood({ closeModal }) {
                     <div className="project-image-container" style={{ marginLeft: "250px" }}>
                         <img className="project-image" alt="robinhood-img" src={robinhood1}></img>
                     </div>
-                    <div className="project-image-container" style={{ marginRight: "250px" }}>
+                    <div className="project-image-container">
                         <img className="project-image" alt="robinhood-img" src={robinhood2}></img>
                     </div>
 
-                    {/* <div className="project-image-container">
+                    <div className="project-image-container">
                         <img className="project-image" src={robinhood3}></img>
                     </div>
 
@@ -88,10 +88,10 @@ function ChaosRobinhood({ closeModal }) {
                     <div className="project-image-container">
                         <img className="project-image" src={robinhood5}></img>
                     </div>
-                    <div className="project-image-container">
+                    <div className="project-image-container" style={{ marginRight: "250px" }}>
                         <img className="project-image" src={robinhood6}></img>
                     </div>
-                    <div className="project-image-container" style={{ marginRight: "250px" }}>
+                    {/* <div className="project-image-container" style={{ marginRight: "250px" }}>
                         <img className="project-image" src={robinhood7}></img>
                     </div> */}
                 </div>
