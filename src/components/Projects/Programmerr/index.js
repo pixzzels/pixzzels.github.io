@@ -8,6 +8,8 @@ import programmerr4 from './programmerr-4.png';
 import programmerr5 from './programmerr-5.png';
 import programmerr6 from './programmerr-6.png';
 import programmerr7 from './programmerr-7.png';
+import programmerr8 from './programmerr-8.png';
+
 
 function Programmerr({ closeModal }) {
     const colors = ["#ff7694", "#2FE6DE", "#F5E0B7", "#8d8de0", "#FF6B6B", "#CBF7ED", "#CA907E", "#FAFAC6"];
@@ -88,8 +90,11 @@ function Programmerr({ closeModal }) {
                     <div className="project-image-container">
                         <img className="project-image" alt="programmerr-img" src={programmerr6}></img>
                     </div>
-                    <div className="project-image-container" style={{ marginRight: "250px" }}>
+                    <div className="project-image-container">
                         <img className="project-image" alt="programmerr-img" src={programmerr7}></img>
+                    </div>
+                    <div className="project-image-container" style={{ marginRight: "250px" }}>
+                        <img className="project-image" alt="programmerr-img" src={programmerr8}></img>
                     </div>
                 </div>
             </div>
