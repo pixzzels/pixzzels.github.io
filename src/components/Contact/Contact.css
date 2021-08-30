@@ -17,8 +17,9 @@
 #contact-form__name-email-container {
     display: flex;
     /* justify-content: space-between; */
-    margin-right: 40px;
-    margin-left: 40px;
+    /* margin-right: 40px;
+    margin-left: 40px; */
+    /* margin: auto; */
 }
 
 .contact-form__flex {
@@ -49,7 +50,7 @@
 .contact-form__flex2 {
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     /* width: 100%; */
 }
 
