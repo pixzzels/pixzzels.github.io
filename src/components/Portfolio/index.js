@@ -114,21 +114,18 @@ function Portfolio() {
                             {robinhood}
                             {luminno}
                         </>
-
                     }
                     {content === "python" &&
                         <>
                             {programmerr}
                             {robinhood}
                         </>
-
                     }
                     {content === "express" &&
                         <>
                             {luminno}
                             {ggplays}
                         </>
-
                     }
                     {content === "all" &&
                         <>
@@ -137,7 +134,6 @@ function Portfolio() {
                             {luminno}
                             {ggplays}
                         </>
-
                     }
 
                 </div>
