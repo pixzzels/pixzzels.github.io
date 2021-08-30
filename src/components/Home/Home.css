@@ -11,6 +11,8 @@
     position: absolute;
     z-index: 2;
     background-color: #18191A;
+    padding-left: 50px;
+
 }
 
 .name-container {
