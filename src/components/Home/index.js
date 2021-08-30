@@ -11,7 +11,12 @@ import './Home.css';
 function Home() {
     return (
         <>
-            <nav className="nav-container">
+            <nav className="nav-container sticky-header">
+                <div className="name-container">
+                    <span className="oc-tags-nav"> &lt;</span>
+                    <NavLink exact to="/" className="name">ELLEN</NavLink>
+                    <span className="oc-tags-nav">&gt;</span>
+                </div>
 
                 <div className="category-container">
                     <a className="category-link" href="#portfolio">Portfolio</a>
@@ -19,11 +24,6 @@ function Home() {
 
                 </div>
             </nav>
-            <div className="name-container sticky-header">
-                <span className="oc-tags-nav"> &lt;</span>
-                <NavLink exact to="/" className="name">ELLEN</NavLink>
-                <span className="oc-tags-nav">&gt;</span>
-            </div>
             {/* <Navigation /> */}
 
 

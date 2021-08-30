@@ -3,23 +3,25 @@
 .nav-container {
     display: flex;
     align-items: center;
+    height: 70px;
+    box-sizing: border-box;
+    width: 100%;
     /* justify-content: space-evenly; */
     padding: 20px;
-    height: 50px;
     position: absolute;
-    /* background-color: hsla(29, 100%, 91%, 0.75); */
+    z-index: 2;
+    background-color: #18191A;
 }
 
 .name-container {
     font-size: 30px;
     color: #707070;
-    padding-top: 15px;
+    /* padding-top: 15px; */
 }
 
 .name {
     font-family: Kai;
     font-size: 45px;
-    padding: 10px;
     padding-right: 15px;
     padding-left: 30px;
     text-decoration: none;
@@ -39,7 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 230px;
+    margin-left: 50px;
 }
 
 .category-link {
@@ -71,9 +73,8 @@
 .sticky-header {
     position: -webkit-sticky;
     position: sticky;
-    top: 10px;
-    width: fit-content;
-    background-color: transparent;
+    top: 0px;
+    /* background-color: transparent; */
     margin-left: 20px;
 }
 
