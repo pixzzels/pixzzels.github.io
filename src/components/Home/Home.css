@@ -32,7 +32,7 @@
 
 .oc-tags-nav {
     position: absolute;
-    top: 15px;
+    top: 16.5px;
     color: #464646;
     text-shadow: .5px .5px #e782ebbe, -.5px -.5px #eeec7ebe, 1px 1px 3px #ffffffbe;
 }
@@ -52,13 +52,14 @@
     color: #707070;
     /* border: 1px solid pink; */
     border-radius: 5px;
-}.category-link:hover {
+}
+
+.category-link:hover {
     color: #B0B3B8;
     /* border-bottom: 1px solid red; */
 }
 
 /*----------Home------------------------------------------------*/
-
 
 .home-wrapper {
     margin-top: 100px;
@@ -77,8 +78,6 @@
     /* background-color: transparent; */
     margin-left: 20px;
 }
-
-
 
 /* .pix-container {
     position: absolute;
@@ -139,7 +138,6 @@
 
 /*----------BACKGROUND------------------------------------------------*/
 
-
 #pix-1 {
     width: .3px;
     position: absolute;
@@ -174,3 +172,9 @@
         box-shadow: 0px 0px 0px 0px black;
     }
 }
+
+/* ----- DESKTOPS, LARGE SCREENS -------- */
+
+/* @media only screen and (min-width: 1300px) {
+
+} */

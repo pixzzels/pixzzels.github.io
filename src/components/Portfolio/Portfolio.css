@@ -317,7 +317,7 @@
 
 /* ---------- Media Screens ----------- */
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1825px) {
     #portfolio {
         margin: 20px 100vw 50px 100vw;
     }
