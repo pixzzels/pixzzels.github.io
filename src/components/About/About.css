@@ -13,6 +13,7 @@
     /* Ensures the content is not revealed until the animation */
     border-right: .15em solid #e2cea8;
     color: #B0B3B8;
+    background-color: #18191A;
     width: fit-content;
     margin-right: auto;
     margin-top: 0px;
@@ -60,6 +61,7 @@
     color: #B0B3B8;
     font-size: 20px;
     line-height: 32px;
+    background-color: #18191A;
 }
 
 .about-find-me {
