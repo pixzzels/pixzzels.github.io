@@ -142,8 +142,8 @@
 #pix-1 {
     width: .3px;
     position: absolute;
-    left: 100px;
-    height: 100px;
+    left: 2%;
+    height: 380px;
     /* animation: pixel-start 4s infinite; */
     animation-name: pixel-pulse-pink;
     animation-duration: 4s;
@@ -157,7 +157,7 @@
 #pix-2 {
     width: .3px;
     position: absolute;
-    left: 300px;
+    left: 15%;
     height: 300px;
     /* animation: pixel-start 4s infinite; */
     animation-name: pixel-pulse-pink;
@@ -173,7 +173,7 @@
 #pix-3 {
     width: .3px;
     position: absolute;
-    left: 700px;
+    left: 30%;
     height: 300px;
     /* animation: pixel-start 4s infinite; */
     animation-name: pixel-pulse-pink;
@@ -189,7 +189,7 @@
 #pix-4 {
     width: .3px;
     position: absolute;
-    left: 950px;
+    left: 55%;
     height: 300px;
     /* animation: pixel-start 4s infinite; */
     animation-name: pixel-pulse-pink;
@@ -205,11 +205,91 @@
 #pix-5 {
     width: .3px;
     position: absolute;
-    left: 1300px;
-    height: 300px;
+    left: 80%;
+    height: 500px;
     /* animation: pixel-start 4s infinite; */
     animation-name: pixel-pulse-pink;
     animation-delay: 3s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: #18191A;
+    /* box-shadow: 0px 0px 0px 0px white; */
+    /* background-color: red; */
+    z-index: -1;
+}
+
+#pix-6 {
+    width: .3px;
+    position: absolute;
+    left: 90%;
+    height: 150px;
+    /* animation: pixel-start 4s infinite; */
+    animation-name: pixel-pulse-purple;
+    animation-delay: 3s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: #18191A;
+    /* box-shadow: 0px 0px 0px 0px white; */
+    /* background-color: red; */
+    z-index: -1;
+}
+
+#pix-6 {
+    width: .3px;
+    position: absolute;
+    left: 97%;
+    height: 400px;
+    /* animation: pixel-start 4s infinite; */
+    animation-name: pixel-pulse-purple;
+    animation-delay: 2.3s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: #18191A;
+    /* box-shadow: 0px 0px 0px 0px white; */
+    /* background-color: red; */
+    z-index: -1;
+}
+
+#pix-7 {
+    width: .3px;
+    position: absolute;
+    left: 7%;
+    height: 500px;
+    /* animation: pixel-start 4s infinite; */
+    animation-name: pixel-pulse-purple;
+    animation-delay: 1.4s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: #18191A;
+    /* box-shadow: 0px 0px 0px 0px white; */
+    /* background-color: red; */
+    z-index: -1;
+}
+
+#pix-8 {
+    width: .3px;
+    position: absolute;
+    left: 68%;
+    height: 430px;
+    /* animation: pixel-start 4s infinite; */
+    animation-name: pixel-pulse-purple;
+    animation-delay: .6s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: #18191A;
+    /* box-shadow: 0px 0px 0px 0px white; */
+    /* background-color: red; */
+    z-index: -1;
+}
+
+#pix-9 {
+    width: .3px;
+    position: absolute;
+    left: 45%;
+    height: 430px;
+    /* animation: pixel-start 4s infinite; */
+    animation-name: pixel-pulse-purple;
+    animation-delay: .6s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     background-color: #18191A;
@@ -225,7 +305,22 @@
     }
     50% {
         background-color: rgba(236, 165, 194, 0.767);
-        box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.356);
+        box-shadow: 0px 0px 10px 1.5px rgba(255, 255, 255, 0.356);
+    }
+    100% {
+        background-color: #18191A;
+        box-shadow: 0px 0px 0px 0px black;
+    }
+}
+
+@keyframes pixel-pulse-purple {
+    0% {
+        background-color: #1a1819;
+        box-shadow: 0px 0px 0px 0px black;
+    }
+    50% {
+        background-color: rgba(209, 133, 236, 0.767);
+        box-shadow: 0px 0px 10px 1.5px rgba(255, 255, 255, 0.356);
     }
     100% {
         background-color: #18191A;

@@ -17,6 +17,11 @@ function Home() {
                 <div id="pix-3"></div>
                 <div id="pix-4"></div>
                 <div id="pix-5"></div>
+                <div id="pix-6"></div>
+                <div id="pix-7"></div>
+                <div id="pix-8"></div>
+                <div id="pix-9"></div>
+                <div id="pix-10"></div>
 
 
 
