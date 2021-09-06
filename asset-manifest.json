@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.bfd5a629.chunk.css",
-    "main.js": "/static/js/main.6ebbb2a5.chunk.js",
-    "main.js.map": "/static/js/main.6ebbb2a5.chunk.js.map",
+    "main.css": "/static/css/main.274bc3ab.chunk.css",
+    "main.js": "/static/js/main.8b27e1e9.chunk.js",
+    "main.js.map": "/static/js/main.8b27e1e9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.989a2f8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.989a2f8e.js.map",
     "static/js/2.2e147b5f.chunk.js": "/static/js/2.2e147b5f.chunk.js",
     "static/js/2.2e147b5f.chunk.js.map": "/static/js/2.2e147b5f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.bfd5a629.chunk.css.map": "/static/css/main.bfd5a629.chunk.css.map",
+    "static/css/main.274bc3ab.chunk.css.map": "/static/css/main.274bc3ab.chunk.css.map",
     "static/js/2.2e147b5f.chunk.js.LICENSE.txt": "/static/js/2.2e147b5f.chunk.js.LICENSE.txt",
     "static/media/Ellen__Park__Resume.196f580a.pdf": "/static/media/Ellen__Park__Resume.196f580a.pdf",
     "static/media/chaos-robinhood-icon.04b8e3d2.png": "/static/media/chaos-robinhood-icon.04b8e3d2.png",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.989a2f8e.js",
     "static/js/2.2e147b5f.chunk.js",
-    "static/css/main.bfd5a629.chunk.css",
-    "static/js/main.6ebbb2a5.chunk.js"
+    "static/css/main.274bc3ab.chunk.css",
+    "static/js/main.8b27e1e9.chunk.js"
   ]
 }
