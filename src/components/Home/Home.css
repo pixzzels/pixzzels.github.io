@@ -144,7 +144,7 @@
     position: absolute;
     left: 2%;
     /* height: 380px; */
-    height: 225vh;
+    height: 220vh;
     /* animation: pixel-start 4s infinite; */
     animation-name: pixel-pulse-pink;
     animation-duration: 4s;
@@ -160,7 +160,7 @@
     position: absolute;
     left: 15%;
     /* height: 300px; */
-    height: 225vh;
+    height: 220vh;
     animation-name: pixel-pulse-pink;
     animation-delay: .5s;
     animation-duration: 4s;
@@ -174,7 +174,7 @@
     position: absolute;
     left: 30%;
     /* height: 300px; */
-    height: 225vh;
+    height: 220vh;
     animation-name: pixel-pulse-pink;
     animation-delay: 1.5s;
     animation-duration: 4s;
@@ -188,9 +188,9 @@
     position: absolute;
     left: 55%;
     /* height: 300px; */
-    height: 225vh;
+    height: 220vh;
     animation-name: pixel-pulse-pink;
-    animation-delay: 1s;
+    animation-delay: 3s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     background-color: #18191A;
@@ -202,7 +202,7 @@
     position: absolute;
     left: 85%;
     /* height: 500px; */
-    height: 225vh;
+    height: 220vh;
     /* animation: pixel-start 4s infinite; */
     animation-name: pixel-pulse-pink;
     animation-delay: 3s;
@@ -231,7 +231,7 @@
     position: absolute;
     left: 97%;
     /* height: 400px; */
-    height: 225vh;
+    height: 220vh;
     animation-name: pixel-pulse-purple;
     animation-delay: 2.3s;
     animation-duration: 4s;
@@ -245,7 +245,7 @@
     position: absolute;
     left: 7%;
     /* height: 500px; */
-    height: 225vh;
+    height: 220vh;
     animation-name: pixel-pulse-purple;
     animation-delay: 1.4s;
     animation-duration: 4s;
@@ -259,7 +259,7 @@
     position: absolute;
     left: 68%;
     /* height: 430px; */
-    height: 225vh;
+    height: 220vh;
     animation-name: pixel-pulse-purple;
     animation-delay: .6s;
     animation-duration: 4s;
@@ -273,7 +273,7 @@
     position: absolute;
     left: 45%;
     /* height: 430px; */
-    height: 225vh;
+    height: 220vh;
     animation-name: pixel-pulse-purple;
     animation-delay: .6s;
     animation-duration: 4s;
@@ -287,9 +287,9 @@
     position: absolute;
     left: 75%;
     /* height: 430px; */
-    height: 225vh;
+    height: 220vh;
     animation-name: pixel-pulse-purple;
-    animation-delay: .6s;
+    animation-delay: 1.8s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     background-color: #18191A;
@@ -303,7 +303,7 @@
     }
     50% {
         background-color: rgba(236, 165, 194, 0.767);
-        box-shadow: 0px 0px 10px 1.5px rgba(255, 255, 255, 0.356);
+        box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.356);
     }
     100% {
         background-color: #18191A;
@@ -318,7 +318,7 @@
     }
     50% {
         background-color: rgba(209, 133, 236, 0.767);
-        box-shadow: 0px 0px 10px 1.5px rgba(255, 255, 255, 0.356);
+        box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.356);
     }
     100% {
         background-color: #18191A;
