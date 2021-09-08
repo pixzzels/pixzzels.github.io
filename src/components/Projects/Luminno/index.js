@@ -1,5 +1,6 @@
 import React from 'react';
 import luminnoFavicon from './luminno-favicon.png'
+import { Carousel } from '3d-react-carousal';
 
 import luminno1 from './luminno-1.png';
 import luminno2 from './luminno-2.png';
@@ -18,13 +19,19 @@ function Luminno({ closeModal }) {
         let number = getRandomInt(5)
         e.target.style.borderColor = colors[number];
         e.target.style.color = "white";
-
     }
 
     function changeBackground2(e) {
         e.target.style.borderColor = "#B0B3B8";
         e.target.style.color = "#B0B3B8";
     }
+
+    let slides = [
+        <img className="project-image" alt="luminno-img1" src={luminno1}></img>,
+        <img className="project-image" alt="luminno-img2" src={luminno2}></img>,
+        <img className="project-image" alt="luminno-img3" src={luminno3}></img>,
+        <img className="project-image" alt="luminno-img4" src={luminno4}></img>,
+    ]
 
     return (
         <>
@@ -65,7 +72,9 @@ function Luminno({ closeModal }) {
                 </div>
 
                 <div className="project-images">
-                    <div className="project-image-container" style={{ marginLeft: "250px" }}>
+                <Carousel slides={slides} autoplay={false} />
+
+                    {/* <div className="project-image-container" style={{ marginLeft: "250px" }}>
                         <img className="project-image" alt="luminno-img" src={luminno1}></img>
                     </div>
                     <div className="project-image-container">
@@ -78,8 +87,7 @@ function Luminno({ closeModal }) {
 
                     <div className="project-image-container" style={{ marginRight: "250px" }}>
                         <img className="project-image" alt="luminno-img" src={luminno4}></img>
-                    </div>
-
+                    </div> */}
                 </div>
             </div>
         </>

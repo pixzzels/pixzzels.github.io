@@ -22,7 +22,6 @@ function ChaosRobinhood({ closeModal }) {
         let number = getRandomInt(5)
         e.target.style.borderColor = colors[number];
         e.target.style.color = "white";
-
     }
 
     function changeBackground2(e) {
