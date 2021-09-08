@@ -1,5 +1,6 @@
 import React from 'react';
 import luminnoFavicon from './ggPlays-favicon.png'
+import { Carousel } from '3d-react-carousal';
 
 import ggplays1 from './ggplays-1.png';
 import ggplays2 from './ggplays-2.png';
@@ -29,6 +30,16 @@ function GGPlays({ closeModal }) {
         e.target.style.color = "#B0B3B8";
     }
 
+    let slides = [
+        <img className="project-image" alt="ggplays-img1" src={ggplays1}></img>,
+        <img className="project-image" alt="ggplays-img2" src={ggplays2}></img>,
+        <img className="project-image" alt="ggplays-img3" src={ggplays3}></img>,
+        <img className="project-image" alt="ggplays-img4" src={ggplays4}></img>,
+        <img className="project-image" alt="ggplays-img5" src={ggplays5}></img>,
+        <img className="project-image" alt="ggplays-img6" src={ggplays6}></img>,
+        <img className="project-image" alt="ggplays-img7" src={ggplays7}></img>,
+    ]
+
     return (
         <>
             <div className="project-container">
@@ -40,7 +51,7 @@ function GGPlays({ closeModal }) {
                             <div>
                                 <button className="modal-header-btn">
                                     <a href="https://ggplays.herokuapp.com/">
-                                    Live Link
+                                        Live Link
                                     </a>
                                 </button>
                                 <button className="modal-header-btn">
@@ -67,7 +78,8 @@ function GGPlays({ closeModal }) {
                 </div>
 
                 <div className="project-images">
-                    <div className="project-image-container" style={{ marginLeft: "250px" }}>
+                    <Carousel slides={slides} autoplay={false} />
+                    {/* <div className="project-image-container" style={{ marginLeft: "250px" }}>
                         <img className="project-image" alt="luminno-img" src={ggplays1}></img>
                     </div>
                     <div className="project-image-container">
@@ -92,7 +104,7 @@ function GGPlays({ closeModal }) {
 
                     <div className="project-image-container" style={{ marginRight: "250px" }}>
                         <img className="project-image" alt="luminno-img" src={ggplays7}></img>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

@@ -31,12 +31,12 @@ function ChaosRobinhood({ closeModal }) {
     }
 
     let slides = [
-        <img className="project-image" alt="robinhood-img" src={robinhood1}></img>,
-        <img className="project-image" alt="robinhood-img" src={robinhood2}></img>,
-        <img className="project-image" src={robinhood3}></img>,
-        <img className="project-image" src={robinhood4}></img>,
-        <img className="project-image" src={robinhood5}></img>,
-        <img className="project-image" src={robinhood6}></img>,
+        <img className="project-image" alt="robinhood-img1" src={robinhood1}></img>,
+        <img className="project-image" alt="robinhood-img2" src={robinhood2}></img>,
+        <img className="project-image" alt="robinhood-img3" src={robinhood3}></img>,
+        <img className="project-image" alt="robinhood-img4" src={robinhood4}></img>,
+        <img className="project-image" alt="robinhood-img5" src={robinhood5}></img>,
+        <img className="project-image" alt="robinhood-img6" src={robinhood6}></img>,
     ]
 
     return (
