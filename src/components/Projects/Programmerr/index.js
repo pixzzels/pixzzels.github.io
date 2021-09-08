@@ -1,5 +1,6 @@
 import React from 'react';
 import programmerrFavicon from './programmerr-favicon.png'
+import { Carousel } from '3d-react-carousal';
 
 import programmerr1 from './programmerr-1.png';
 import programmerr2 from './programmerr-2.png';
@@ -22,13 +23,23 @@ function Programmerr({ closeModal }) {
         let number = getRandomInt(5)
         e.target.style.borderColor = colors[number];
         e.target.style.color = "white";
-
     }
 
     function changeBackground2(e) {
         e.target.style.borderColor = "#B0B3B8";
         e.target.style.color = "#B0B3B8";
     }
+
+    let slides = [
+        <img className="project-image" alt="programmerr-img1" src={programmerr1}></img>,
+        <img className="project-image" alt="programmerr-img2" src={programmerr2}></img>,
+        <img className="project-image" alt="programmerr-img3" src={programmerr3}></img>,
+        <img className="project-image" alt="programmerr-img4" src={programmerr4}></img>,
+        <img className="project-image" alt="programmerr-img5" src={programmerr5}></img>,
+        <img className="project-image" alt="programmerr-img6" src={programmerr6}></img>,
+        <img className="project-image" alt="programmerr-img7" src={programmerr7}></img>,
+        <img className="project-image" alt="programmerr-img8" src={programmerr8}></img>,
+    ]
 
     return (
         <>
@@ -70,7 +81,9 @@ function Programmerr({ closeModal }) {
                 </div>
 
                 <div className="project-images">
-                    <div className="project-image-container" style={{ marginLeft: "250px" }}>
+                    <Carousel slides={slides} autoplay={false} />
+
+                    {/* <div className="project-image-container" style={{ marginLeft: "250px" }}>
                         <img className="project-image" alt="programmerr-img" src={programmerr1}></img>
                     </div>
                     <div className="project-image-container">
@@ -95,7 +108,7 @@ function Programmerr({ closeModal }) {
                     </div>
                     <div className="project-image-container" style={{ marginRight: "250px" }}>
                         <img className="project-image" alt="programmerr-img" src={programmerr8}></img>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>
