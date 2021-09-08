@@ -11,21 +11,6 @@ import './Home.css';
 function Home() {
     return (
         <>
-            <div className="background">
-                <div id="pix-1"></div>
-                <div id="pix-2"></div>
-                <div id="pix-3"></div>
-                <div id="pix-4"></div>
-                <div id="pix-5"></div>
-                <div id="pix-6"></div>
-                <div id="pix-7"></div>
-                <div id="pix-8"></div>
-                <div id="pix-9"></div>
-                <div id="pix-10"></div>
-
-
-
-            </div>
             <nav className="nav-container sticky-header">
                 <div className="name-container">
                     <span className="oc-tags-nav"> &lt;</span>
@@ -40,15 +25,27 @@ function Home() {
                 </div>
             </nav>
             {/* <Navigation /> */}
+            <div className="background">
+                <div id="pix-1"></div>
+                <div id="pix-2"></div>
+                <div id="pix-3"></div>
+                <div id="pix-4"></div>
+                <div id="pix-5"></div>
+                <div id="pix-6"></div>
+                <div id="pix-7"></div>
+                <div id="pix-8"></div>
+                <div id="pix-9"></div>
+                <div id="pix-10"></div>
+            </div>
 
 
             <div className="home-wrapper">
-
 
                 <About />
                 <Portfolio />
                 <Contact />
             </div>
+
         </>
     )
 };
