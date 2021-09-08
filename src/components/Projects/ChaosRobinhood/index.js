@@ -1,5 +1,6 @@
 import React from 'react';
 import robinhoodFavicon from './robinhood-favicon.png'
+import { Carousel } from '3d-react-carousal';
 
 import robinhood1 from './robinhood-1.png';
 import robinhood2 from './robinhood-2.png';
@@ -28,6 +29,15 @@ function ChaosRobinhood({ closeModal }) {
         e.target.style.borderColor = "#B0B3B8";
         e.target.style.color = "#B0B3B8";
     }
+
+    let slides = [
+        <img className="project-image" alt="robinhood-img" src={robinhood1}></img>,
+        <img className="project-image" alt="robinhood-img" src={robinhood2}></img>,
+        <img className="project-image" src={robinhood3}></img>,
+        <img className="project-image" src={robinhood4}></img>,
+        <img className="project-image" src={robinhood5}></img>,
+        <img className="project-image" src={robinhood6}></img>,
+    ]
 
     return (
         <>
@@ -71,7 +81,8 @@ function ChaosRobinhood({ closeModal }) {
                 </div>
 
                 <div className="project-images">
-                    <div className="project-image-container" style={{ marginLeft: "250px" }}>
+                    <Carousel slides={slides} autoplay={false}  />
+                    {/* <div className="project-image-container" style={{ marginLeft: "250px" }}>
                         <img className="project-image" alt="robinhood-img" src={robinhood1}></img>
                     </div>
                     <div className="project-image-container">
@@ -90,7 +101,7 @@ function ChaosRobinhood({ closeModal }) {
                     </div>
                     <div className="project-image-container" style={{ marginRight: "250px" }}>
                         <img className="project-image" src={robinhood6}></img>
-                    </div>
+                    </div> */}
                     {/* <div className="project-image-container" style={{ marginRight: "250px" }}>
                         <img className="project-image" src={robinhood7}></img>
                     </div> */}
