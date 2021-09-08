@@ -26,8 +26,8 @@ function About() {
                             <a href={EllenParkResume} download style={{display:"flex", alignItems:"center", textDecoration:"none"}}>
                                 <i className="contact-icon far fa-file"></i>
                                 <div style={{fontSize:"16px", color:"#B0B3B8"}}>
-                                    <div>Download</div>
-                                    <div>Resume</div>
+                                    <div style={{backgroundColor:"#18191A"}} >Download</div>
+                                    <div style={{backgroundColor:"#18191A"}} >Resume</div>
                                 </div>
                             </a>
                         </div>
