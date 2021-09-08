@@ -16,11 +16,13 @@
     padding: 20px;
     background-color: transparent;
     margin-bottom: 30px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
 .menu-bar:hover {
     cursor: pointer;
-    text-shadow: 1px 1px 10px rgba(219, 219, 219, 0.671);
+    color: #bbbfc5;
+    text-shadow: 0px 0px 10px rgba(110, 110, 110, 0.671);
 }
 
 .menu-bar:after {
@@ -40,7 +42,8 @@
 }
 
 .menu-bar-active {
-    text-shadow: 1px 1px 10px #dbdbdbab;
+    color: #bbbfc5;
+    text-shadow: 0px 0px 10px rgba(110, 110, 110, 0.671);
 }
 
 .menu-bar-active:after {

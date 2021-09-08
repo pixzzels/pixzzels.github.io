@@ -89,6 +89,7 @@
     color: #B0B3B8;
     margin: auto;
     margin-bottom: 15px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
 .technologies {
@@ -97,6 +98,7 @@
     justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
+    background-color: #18191A;
 
 }
 
