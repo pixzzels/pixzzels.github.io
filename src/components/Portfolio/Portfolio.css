@@ -166,6 +166,9 @@
     color: white;
     background-color: transparent;
     transition: transform .5s;
+}.project-card-overlay__learn-more:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .project-card-overlay:hover .project-card-overlay__learn-more {
@@ -184,10 +187,12 @@
     background-color: transparent;
     transition: transform .5s;
     text-align: center;
+    text-decoration: none;
 }
 
 .project-card-overlay__live-link:hover {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .project-card-overlay:hover .project-card-overlay__live-link {

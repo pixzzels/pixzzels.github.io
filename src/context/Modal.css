@@ -24,11 +24,11 @@
   /* background-color:#E4E6EB; */
   background-color:#37373f;
   border-radius: 10px;
-  height: fit-content;
+  height: 80vh;
   width: 70vw;
   /* border: 1px solid red; */
   padding: 40px;
-  overflow: hidden;
+  overflow-y: scroll;
   animation: fadebackground .5s;
 
 }

@@ -12,7 +12,6 @@ import ggPlaysIcon from '../Projects/GGPlays/ggplays-icon.png';
 
 import './Portfolio.css';
 
-
 function Portfolio() {
 
     const [content, setContent] = useState('all')
@@ -32,11 +31,10 @@ function Portfolio() {
                 <div className="project-card-overlay__header">
                     {name}
                 </div>
-                <button className="project-card-overlay__learn-more" onClick={() => setProject(name)}>Click Here to Learn More!!</button>
+                <button className="project-card-overlay__learn-more" onClick={() => setProject(name)}>Click Here to Learn More!</button>
                 <a className="project-card-overlay__live-link" href={link}>
                     Live Link
                 </a>
-
             </div>
         )
     }
@@ -80,7 +78,6 @@ function Portfolio() {
             )}
         </div>
 
-
     const ggplays =
         <div className="project-card ggPlays">
             {cardOverlay("GGPlays", "https://ggplays.herokuapp.com/")}
@@ -94,11 +91,7 @@ function Portfolio() {
             )}
         </div>
 
-
-
     return (
-
-
         <>
             <div id="portfolio">
                 <div className="projects-menu-bar">
@@ -137,7 +130,6 @@ function Portfolio() {
                     }
 
                 </div>
-
             </div>
         </>
     )
