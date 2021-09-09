@@ -144,7 +144,7 @@
     position: absolute;
     left: 2%;
     /* height: 380px; */
-    height: 205vh;
+    height: 110%;
     /* animation: pixel-start 4s infinite; */
     animation-name: pixel-pulse-pink;
     animation-duration: 4s;
@@ -160,7 +160,7 @@
     position: absolute;
     left: 15%;
     /* height: 300px; */
-    height: 205vh;
+    height: 110%;
     animation-name: pixel-pulse-pink;
     animation-delay: .5s;
     animation-duration: 4s;
@@ -174,7 +174,7 @@
     position: absolute;
     left: 30%;
     /* height: 300px; */
-    height: 205vh;
+    height: 110%;
     animation-name: pixel-pulse-pink;
     animation-delay: 1.5s;
     animation-duration: 4s;
@@ -188,7 +188,7 @@
     position: absolute;
     left: 55%;
     /* height: 300px; */
-    height: 205vh;
+    height: 110%;
     animation-name: pixel-pulse-pink;
     animation-delay: 3s;
     animation-duration: 4s;
@@ -202,7 +202,7 @@
     position: absolute;
     left: 85%;
     /* height: 500px; */
-    height: 205vh;
+    height: 110%;
     /* animation: pixel-start 4s infinite; */
     animation-name: pixel-pulse-pink;
     animation-delay: 3s;
@@ -231,7 +231,7 @@
     position: absolute;
     left: 97%;
     /* height: 400px; */
-    height: 205vh;
+    height: 110%;
     animation-name: pixel-pulse-purple;
     animation-delay: 2.3s;
     animation-duration: 4s;
@@ -245,7 +245,7 @@
     position: absolute;
     left: 7%;
     /* height: 500px; */
-    height: 205vh;
+    height: 110%;
     animation-name: pixel-pulse-purple;
     animation-delay: 1.4s;
     animation-duration: 4s;
@@ -259,7 +259,7 @@
     position: absolute;
     left: 68%;
     /* height: 430px; */
-    height: 205vh;
+    height: 110%;
     animation-name: pixel-pulse-purple;
     animation-delay: .6s;
     animation-duration: 4s;
@@ -273,7 +273,7 @@
     position: absolute;
     left: 45%;
     /* height: 430px; */
-    height: 205vh;
+    height: 110%;
     animation-name: pixel-pulse-purple;
     animation-delay: .6s;
     animation-duration: 4s;
@@ -287,7 +287,7 @@
     position: absolute;
     left: 75%;
     /* height: 430px; */
-    height: 205vh;
+    height: 110%;
     animation-name: pixel-pulse-purple;
     animation-delay: 1.8s;
     animation-duration: 4s;
