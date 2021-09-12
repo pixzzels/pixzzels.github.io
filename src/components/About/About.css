@@ -4,7 +4,6 @@
 
 .about-container {
     display: flex;
-    /* align-items: center; */
     margin-bottom: 70px;
 }
 
@@ -15,6 +14,7 @@
     color: #B0B3B8;
     background-color: #18191A;
     width: fit-content;
+    width: -moz-fit-content
     margin-right: auto;
     margin-top: 0px;
     /* The typwriter cursor */

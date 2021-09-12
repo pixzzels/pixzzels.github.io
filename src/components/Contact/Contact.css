@@ -2,6 +2,7 @@
     margin: auto;
     height: 25em;
     width: fit-content;
+    width: -moz-fit-content;
     display: flex;
     flex-direction: column;
     position: relative;
