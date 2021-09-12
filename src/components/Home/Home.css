@@ -80,10 +80,16 @@
     width: .3px;
     position: absolute;
     left: 2%;
-    height: 22vh;
+    height: 220vh;
     animation-name: pixel-pulse-pink;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    -moz-animation-name: pixel-pulse-pink;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: pixel-pulse-pink;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
     background-color: #18191A;
     z-index: -1;
 }
@@ -91,12 +97,20 @@
 #pix-2 {
     width: .3px;
     position: absolute;
-    left: 15%;
-    height: 22vh;
+    left: 67%;
+    height: 220vh;
     animation-name: pixel-pulse-pink;
     animation-delay: .5s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    -moz-animation-name: pixel-pulse-pink;
+    -moz-animation-delay: .5s;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: pixel-pulse-pink;
+    -webkit-animation-delay: .5s;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
     background-color: #18191A;
     z-index: -1;
 }
@@ -104,12 +118,20 @@
 #pix-3 {
     width: .3px;
     position: absolute;
-    left: 30%;
-    height: 22vh;
+    left: 32%;
+    height: 220vh;
     animation-name: pixel-pulse-pink;
     animation-delay: 1.5s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    -moz-animation-name: pixel-pulse-pink;
+    -moz-animation-delay: 1.5s;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: pixel-pulse-pink;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
     background-color: #18191A;
     z-index: -1;
 }
@@ -117,12 +139,20 @@
 #pix-4 {
     width: .3px;
     position: absolute;
-    left: 55%;
-    height: 22vh;
+    left: 46%;
+    height: 220vh;
     animation-name: pixel-pulse-pink;
     animation-delay: 3s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    -moz-animation-name: pixel-pulse-pink;
+    -moz-animation-delay: 3s;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: pixel-pulse-pink;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
     background-color: #18191A;
     z-index: -1;
 }
@@ -131,11 +161,19 @@
     width: .3px;
     position: absolute;
     left: 85%;
-    height: 22vh;
+    height: 220vh;
     animation-name: pixel-pulse-pink;
-    animation-delay: 3s;
+    animation-delay: 3.4s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    -moz-animation-name: pixel-pulse-pink;
+    -moz-animation-delay: 3.4s;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: pixel-pulse-pink;
+    -webkit-animation-delay: 3.4s;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
     background-color: #18191A;
     z-index: -1;
 }
@@ -143,25 +181,20 @@
 #pix-6 {
     width: .3px;
     position: absolute;
-    left: 90%;
-    height: 150px;
+    left: 96%;
+    height: 220vh;
     animation-name: pixel-pulse-purple;
-    animation-delay: 3s;
+    animation-delay: 2.8s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    background-color: #18191A;
-    z-index: -1;
-}
-
-#pix-6 {
-    width: .3px;
-    position: absolute;
-    left: 97%;
-    height: 22vh;
-    animation-name: pixel-pulse-purple;
-    animation-delay: 2.3s;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    -moz-animation-name: pixel-pulse-purple;
+    -moz-animation-delay: 2.8s;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: pixel-pulse-purple;
+    -webkit-animation-delay: 2.8s;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
     background-color: #18191A;
     z-index: -1;
 }
@@ -169,12 +202,20 @@
 #pix-7 {
     width: .3px;
     position: absolute;
-    left: 7%;
-    height: 22vh;
+    left: 11%;
+    height: 220vh;
     animation-name: pixel-pulse-purple;
     animation-delay: 1.4s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    -moz-animation-name: pixel-pulse-purple;
+    -moz-animation-delay: 1.4s;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: pixel-pulse-purple;
+    -webkit-animation-delay: 1.4s;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
     background-color: #18191A;
     z-index: -1;
 }
@@ -182,12 +223,20 @@
 #pix-8 {
     width: .3px;
     position: absolute;
-    left: 68%;
-    height: 22vh;
+    left: 20%;
+    height: 220vh;
     animation-name: pixel-pulse-purple;
     animation-delay: .6s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    -moz-animation-name: pixel-pulse-purple;
+    -moz-animation-delay: .6s;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: pixel-pulse-purple;
+    -webkit-animation-delay: .6s;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
     background-color: #18191A;
     z-index: -1;
 }
@@ -195,13 +244,20 @@
 #pix-9 {
     width: .3px;
     position: absolute;
-    left: 45%;
-    /* height: 430px; */
-    height: 22vh;
+    left: 56%;
+    height: 220vh;
     animation-name: pixel-pulse-purple;
-    animation-delay: .6s;
+    animation-delay: .9s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    -moz-animation-name: pixel-pulse-purple;
+    -moz-animation-delay: .9s;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: pixel-pulse-purple;
+    -webkit-animation-delay: .9s;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
     background-color: #18191A;
     z-index: -1;
 }
@@ -210,15 +266,19 @@
     width: .3px;
     position: absolute;
     left: 75%;
-    height: 22vh;
+    height: 220vh;
     animation-name: pixel-pulse-purple;
-    animation-delay: 1.8s;
+    animation-delay: 2s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     -moz-animation-name: pixel-pulse-purple;
-    -moz-animation-delay: 1.8s;
+    -moz-animation-delay: 2s;
     -moz-animation-duration: 4s;
     -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: pixel-pulse-purple;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
     background-color: #18191A;
     z-index: -1;
 }
@@ -229,7 +289,7 @@
         box-shadow: 0px 0px 0px 0px black;
     }
     50% {
-        background-color: rgba(236, 165, 194, 0.767);
+        background-color: rgba(235, 152, 187, 0.767);
         box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.356);
     }
     100% {
@@ -253,28 +313,6 @@
     }
 }
 
-
-
-/* @keyframes pixel-pulse {
-    0% {
-        background-color: #1a1819;
-    }
-    50% {
-        background-color: rgba(204, 204, 204, 0.815);
-    }
-    100% {
-        background-color: #18191A;
-    }
-    0% {
-        box-shadow: 0px 0px 0px 0px black;
-    }
-    50% {
-        box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.356);
-    }
-    100% {
-        box-shadow: 0px 0px 0px 0px black;
-    }
-} */
 
 /* ----- DESKTOPS, LARGE SCREENS -------- */
 
