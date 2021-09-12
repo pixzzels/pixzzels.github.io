@@ -1,5 +1,4 @@
 #portfolio {
-    /* margin: 20px 100px 50px 100px; */
     margin: 20px 5vw 50px 5vw;
     background-color: transparent;
 }
@@ -62,11 +61,7 @@
 .projects-container {
     display: flex;
     min-height: 400px;
-    /* height: fit-content; */
-    /* width: fit-content; */
     margin: 20px auto 50px auto;
-    /* margin: auto; */
-    /* box-shadow: 0px 0px 100px 70px rgb(94, 94, 94); */
     background: transparent;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -121,20 +116,17 @@
 }
 
 .project-card-overlay {
-    /* display: none; */
     position: absolute;
     top: 0;
     height: 300px;
     width: 300px;
     transition: background-color .5s, backdrop-filter .3s;
     background-color: transparent;
-    /* box-shadow: 0px 0px 45px 10px rgba(255, 255, 255, 0.993); */
 }
 
 .project-card:hover .project-card-overlay {
     background-color: #1a19199a;
     backdrop-filter: blur(3.5px);
-    /* display: block; */
 }
 
 .project-card-overlay__header {
@@ -146,8 +138,6 @@
     color: white;
     background-color: transparent;
     padding: 10px;
-    /* transition: top 1s; */
-    /* transform: translateY(50px); */
     transition: transform .5s;
     text-align: center;
     text-shadow: .5px .5px #e782ebbe, -.5px -.5px #eeec7ebe, 0px 2px 5px #b9b9b9be;

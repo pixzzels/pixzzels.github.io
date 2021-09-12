@@ -6,7 +6,6 @@
     height: 70px;
     box-sizing: border-box;
     width: 100%;
-    /* justify-content: space-evenly; */
     padding: 20px;
     position: absolute;
     z-index: 2;
@@ -18,7 +17,6 @@
 .name-container {
     font-size: 30px;
     color: #707070;
-    /* padding-top: 15px; */
 }
 
 .name {
@@ -29,7 +27,6 @@
     text-decoration: none;
     color: #464646;
     text-shadow: .5px .5px #e782ebbe, -.5px -.5px #eeec7ebe, 1px 1px 3px #ffffffbe;
-    /* text-shadow: -2px -2px #ffffffbe; */
 }
 
 .oc-tags-nav {
@@ -48,17 +45,14 @@
 
 .category-link {
     padding: 15px;
-    /* margin: 10px; */
     text-decoration: none;
     font-size: 20px;
     color: #707070;
-    /* border: 1px solid pink; */
     border-radius: 5px;
 }
 
 .category-link:hover {
     color: #B0B3B8;
-    /* border-bottom: 1px solid red; */
 }
 
 /*----------Home------------------------------------------------*/
@@ -77,65 +71,8 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    /* background-color: transparent; */
 }
 
-/* .pix-container {
-    position: absolute;
-    left: 100px;
-    height: 100px; */
-
-/* width: 10px; */
-
-/* box-shadow: 0px 0px 0px 0px white; */
-
-/* animation-name: pixel-start, pixel-end;
-    animation-duration: 4s, 4s;
-    animation-delay: 0s, 4s;
-    animation-iteration-count: infinite;
-    width:1px;
-
-} */
-
-/* #pix-1 {
-    width: .5px;
-    animation-name: pixel-start, pixel-end;
-    animation-duration: 4s, 4s;
-    animation-delay: 0s, 4s;
-    animation-iteration-count: infinite;
-
-    stroke: #18191A; */
-
-/* box-shadow: 0px 0px 0px 0px white; */
-
-/* background-color: red; */
-
-/* } */
-
-/* @keyframes pixel-start {
-    from {stroke: #18191A;}
-    to {stroke: white;}
-    from {box-shadow: 0px 0px 0px 0px white;}
-    to {box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.548);}
-}
-
-@keyframes pixel-end {
-    from {stroke: white;}
-    to {stroke: #18191A;}
-    from {box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.548);}
-    to {box-shadow: 0px 0px 0px 0px white;}
-} */
-
-/* .pix-container {
-    position: absolute;
-    left: 100px;
-    height: 1000px;
-    animation-name: pixel-pulse;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    width:1px;
-
-} */
 
 /*----------BACKGROUND------------------------------------------------*/
 
@@ -143,15 +80,11 @@
     width: .3px;
     position: absolute;
     left: 2%;
-    /* height: 380px; */
-    height: 110%;
-    /* animation: pixel-start 4s infinite; */
+    height: 22vh;
     animation-name: pixel-pulse-pink;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     background-color: #18191A;
-    /* box-shadow: 0px 0px 0px 0px white; */
-    /* background-color: red; */
     z-index: -1;
 }
 
@@ -159,8 +92,7 @@
     width: .3px;
     position: absolute;
     left: 15%;
-    /* height: 300px; */
-    height: 110%;
+    height: 22vh;
     animation-name: pixel-pulse-pink;
     animation-delay: .5s;
     animation-duration: 4s;
@@ -173,8 +105,7 @@
     width: .3px;
     position: absolute;
     left: 30%;
-    /* height: 300px; */
-    height: 110%;
+    height: 22vh;
     animation-name: pixel-pulse-pink;
     animation-delay: 1.5s;
     animation-duration: 4s;
@@ -187,8 +118,7 @@
     width: .3px;
     position: absolute;
     left: 55%;
-    /* height: 300px; */
-    height: 110%;
+    height: 22vh;
     animation-name: pixel-pulse-pink;
     animation-delay: 3s;
     animation-duration: 4s;
@@ -201,9 +131,7 @@
     width: .3px;
     position: absolute;
     left: 85%;
-    /* height: 500px; */
-    height: 110%;
-    /* animation: pixel-start 4s infinite; */
+    height: 22vh;
     animation-name: pixel-pulse-pink;
     animation-delay: 3s;
     animation-duration: 4s;
@@ -217,7 +145,6 @@
     position: absolute;
     left: 90%;
     height: 150px;
-    /* animation: pixel-start 4s infinite; */
     animation-name: pixel-pulse-purple;
     animation-delay: 3s;
     animation-duration: 4s;
@@ -230,8 +157,7 @@
     width: .3px;
     position: absolute;
     left: 97%;
-    /* height: 400px; */
-    height: 110%;
+    height: 22vh;
     animation-name: pixel-pulse-purple;
     animation-delay: 2.3s;
     animation-duration: 4s;
@@ -244,8 +170,7 @@
     width: .3px;
     position: absolute;
     left: 7%;
-    /* height: 500px; */
-    height: 110%;
+    height: 22vh;
     animation-name: pixel-pulse-purple;
     animation-delay: 1.4s;
     animation-duration: 4s;
@@ -258,8 +183,7 @@
     width: .3px;
     position: absolute;
     left: 68%;
-    /* height: 430px; */
-    height: 110%;
+    height: 22vh;
     animation-name: pixel-pulse-purple;
     animation-delay: .6s;
     animation-duration: 4s;
@@ -273,7 +197,7 @@
     position: absolute;
     left: 45%;
     /* height: 430px; */
-    height: 110%;
+    height: 22vh;
     animation-name: pixel-pulse-purple;
     animation-delay: .6s;
     animation-duration: 4s;
@@ -286,12 +210,15 @@
     width: .3px;
     position: absolute;
     left: 75%;
-    /* height: 430px; */
-    height: 110%;
+    height: 22vh;
     animation-name: pixel-pulse-purple;
     animation-delay: 1.8s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    -moz-animation-name: pixel-pulse-purple;
+    -moz-animation-delay: 1.8s;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
     background-color: #18191A;
     z-index: -1;
 }
@@ -325,6 +252,8 @@
         box-shadow: 0px 0px 0px 0px black;
     }
 }
+
+
 
 /* @keyframes pixel-pulse {
     0% {
