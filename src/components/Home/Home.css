@@ -11,7 +11,6 @@
     z-index: 2;
     background-color: #18191A;
     padding-left: 50px;
-
 }
 
 .name-container {
@@ -72,7 +71,6 @@
     position: sticky;
     top: 0px;
 }
-
 
 /*----------BACKGROUND------------------------------------------------*/
 
@@ -313,9 +311,118 @@
     }
 }
 
+/* DESKTOPS, LARGE SCREENS */
 
-/* ----- DESKTOPS, LARGE SCREENS -------- */
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {}
 
-/* @media only screen and (min-width: 1300px) {
+/* SMALL SCREENS, LAPTOPS */
 
-} */
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+    .about-right>h1 {
+        margin: 20px auto 20px auto;
+    }
+    .about-find-me {
+        justify-content: center;
+    }
+    .technologies {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+/* IPADS, TABLETS */
+
+@media only screen and (max-width: 768px) {
+    /*----ABOUT-----*/
+    .profile-img {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+    }
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    .about-right>h1 {
+        /* color: red; */
+        margin: 20px auto 20px auto;
+        font-size: 30px;
+    }
+    .about-description {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .about-find-me {
+        justify-content: center;
+    }
+    /*-----TECH-----*/
+    .technologies {
+        margin: 0px;
+    }
+    .tech__icon {
+        margin: 15px;
+        font-size: 55px;
+    }
+    /*-----PORTFOLIO-----*/
+    .project-card {
+        height: 250px;
+        width: 250px;
+        margin: 15px;
+    }
+    .project-card-img {
+        height: 250px;
+        width: 250px;
+    }
+    .project-card-overlay {
+        height: 250px;
+        width: 250px;
+    }
+    /*-----PORTFOLIO overlay header-----*/
+    .project-card-overlay__header {
+        top: -50px;
+        height: 30px;
+        width: 230px;
+        font-size: 26px;
+        padding: 10px;
+    }.project-card-overlay:hover .project-card-overlay__header {
+        transform: translate(0px, 80px);
+    }
+    /*-----PORTFOLIO overlay learn more-----*/
+    .project-card-overlay__learn-more {
+        top: 100px;
+        right: -250px;
+        height: 30px;
+        width: 250px;
+        padding: 10px;
+        font-size: 18px;
+    }.project-card-overlay:hover .project-card-overlay__learn-more {
+        transform: translate(-250px, 0px);
+    }
+    /*-----PORTFOLIO overlay link-----*/
+    .project-card-overlay__live-link {
+        bottom: -60px;
+        height: 20px;
+        width: 230px;
+        border: 0px;
+        padding: 10px;
+        font-size: 18px;
+    }.project-card-overlay:hover .project-card-overlay__live-link {
+        transform: translate(0px, -120px);
+    }
+}
+
+/* MOBILE DEVICES */
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {}
+
+/* IPhone 6/7/8 */
+
+@media only screen and (max-width: 375px) {}

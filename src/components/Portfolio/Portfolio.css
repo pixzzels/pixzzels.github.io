@@ -84,7 +84,7 @@
     transform: translate(3px, -3px)
 }
 
-.project-card-shadow {
+/* .project-card-shadow {
     height: 300px;
     width: 300px;
     margin: 20px;
@@ -92,14 +92,14 @@
     position: absolute;
     border-radius: 3px;
     background: yellow;
-}
+} */
 
 .project-card-img {
     height: 300px;
     width: 300px;
 }
 
-.programmerr {
+/* .programmerr {
     background: yellow;
 }
 
@@ -113,7 +113,7 @@
 
 .ggPlays {
     background: red;
-}
+} */
 
 .project-card-overlay {
     position: absolute;
